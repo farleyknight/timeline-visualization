@@ -9,17 +9,107 @@
       "url": "https://en.wikipedia.org/wiki/Baby_boom#United_States"
     },
     {
+      "description": "GI Bill Transforms Education and Housing",
+      "year": 1946,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/G.I._Bill"
+    },
+    {
+      "description": "Truman Doctrine Introduced",
+      "year": 1947,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Truman_Doctrine"
+    },
+    {
+      "description": "NATO Established",
+      "year": 1949,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/NATO"
+    },            
+    {
       "description": "Post-WWII Economic Boom",
       "year": 1950,
       "category": "First Turning (High)",
       "url": "https://en.wikipedia.org/wiki/Post%E2%80%93World_War_II_economic_expansion"
     },
     {
+      "description": "Korean War Begins",
+      "year": 1950,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Korean_War"
+    },
+    {
+      "description": "Polio Vaccine Developed by Jonas Salk",
+      "year": 1952,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Polio_vaccine"
+    },        
+    {
+      "description": "Brown v. Board of Education Ruling",
+      "year": 1954,
+      "category": "First Turning (High)",
+      "url": "https://www.history.com/topics/black-history/brown-v-board-of-education-of-topeka"
+    },
+    {
+      "description": "Rosa Parks Sparks Montgomery Bus Boycott",
+      "year": 1955,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott"
+    }, 
+    {
+      "description": "Interstate Highway System Established",
+      "year": 1956,
+      "category": "First Turning (High)",
+      "url": "https://www.fhwa.dot.gov/interstate/history.cfm"
+    },       
+    {
+      "description": "Civil Rights Act of 1957 Signed",
+      "year": 1957,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957"
+    },    
+    {
       "description": "Space Race Begins",
       "year": 1957,
       "category": "First Turning (High)",
       "url": "https://www.nasa.gov/history/sputnik/index.html"
     },
+    {
+      "description": "NASA Established",
+      "year": 1958,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/NASA"
+    },
+    {
+      "description": "Alaska and Hawaii Become U.S. States",
+      "year": 1959,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Admission_to_the_Union"
+    },
+    {
+      "description": "John F. Kennedy Elected President",
+      "year": 1960,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+    },
+    {
+      "description": "Cuban Missile Crisis",
+      "year": 1962,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+    },
+    {
+      "description": "March on Washington for Jobs and Freedom",
+      "year": 1963,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom"
+    },                    
+    {
+      "description": "Civil Rights Act Passed",
+      "year": 1964,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964"
+    },    
     {
       "description": "Anti-Vietnam War Protests",
       "year": 1964,
@@ -33,16 +123,268 @@
       "url": "https://www.nps.gov/subjects/civilrights/modern-civil-rights-movement.htm"
     },
     {
+      "description": "Anti-Vietnam War Protests Intensify",
+      "year": 1965,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Opposition_to_United_States_involvement_in_the_Vietnam_War"
+    },
+    {
+      "description": "Assassination of Malcolm X",
+      "year": 1965,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Malcolm_X"
+    },        
+    {
+      "description": "Summer of Love",
+      "year": 1967,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Summer_of_Love"
+    },
+    {
+      "description": "Martin Luther King Jr. Assassinated",
+      "year": 1968,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr."
+    },
+    {
+      "description": "Robert F. Kennedy Assassinated",
+      "year": 1968,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Robert_F._Kennedy"
+    },        
+    {
+      "description": "Woodstock Music Festival",
+      "year": 1969,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Woodstock"
+    },
+    {
+      "description": "Native American Occupation of Alcatraz",
+      "year": 1969,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Occupation_of_Alcatraz"
+    },    
+    {
+      "description": "Apollo 11 Moon Landing",
+      "year": 1969,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Apollo_11"
+    }, 
+    {
+      "description": "Kent State Shootings",
+      "year": 1970,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Kent_State_shootings"
+    },
+    {
+      "description": "Earth Day Inaugurated",
+      "year": 1970,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Earth_Day"
+    },
+    {
+      "description": "First Gay Pride Parades Held",
+      "year": 1970,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Gay_pride"
+    },
+    {
+      "description": "Fourth Great Awakening (Evangelical Movement Rises)",
+      "year": 1970,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Fourth_Great_Awakening"
+    },    
+    {
+      "description": "Environmental Protection Agency (EPA) Established",
+      "year": 1970,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency"
+    },        
+    {
+      "description": "Title IX Passed (Gender Equality in Education)",
+      "year": 1972,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Title_IX"
+    },        
+    {
+      "description": "Watergate Scandal",
+      "year": 1972,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.archives.gov/research/investigations/watergate"
+    },
+    {
+      "description": "Roe v. Wade Legalizes Abortion",
+      "year": 1973,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Roe_v._Wade"
+    },    
+    {
+      "description": "End of U.S. Involvement in Vietnam",
+      "year": 1973,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+    },
+    {
+      "description": "Energy Crisis Begins",
+      "year": 1973,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/1973_oil_crisis"
+    },
+    {
+      "description": "Resignation of President Nixon",
+      "year": 1974,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Resignation_of_Richard_Nixon"
+    },
+    {
+      "description": "Jonestown Massacre",
+      "year": 1978,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Jonestown"
+    },    
+    {
+      "description": "Three Mile Island Nuclear Accident",
+      "year": 1979,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Three_Mile_Island_accident"
+    },                
+    {
+      "description": "Reaganomics Introduced",
+      "year": 1981,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Reaganomics"
+    },
+    {
+      "description": "Personal Computer Revolution",
+      "year": 1981,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/History_of_personal_computers"
+    },
+    {
+      "description": "AIDS Crisis Publicly Acknowledged",
+      "year": 1981,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_the_United_States"
+    },
+    {
+      "description": "Launch of MTV and Cultural Shifts in Music",
+      "year": 1981,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/MTV"
+    },
+    {
+      "description": "War on Drugs Initiated",
+      "year": 1982,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/War_on_drugs"
+    },
+    {
+      "description": "Challenger Disaster",
+      "year": 1986,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster"
+    },
+    {
+      "description": "Stock Market Crash (Black Monday)",
+      "year": 1987,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)"
+    },
+    {
+      "description": "Iran-Contra Affair Exposed",
+      "year": 1986,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair"
+    },
+    {
+      "description": "Rise of Yuppie Culture",
+      "year": 1980,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Yuppie"
+    },
+    {
+      "description": "Fall of the Berlin Wall Signals End of Cold War",
+      "year": 1989,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+    },    
+    {
       "description": "Rise of Internet and Tech Boom",
       "year": 1990,
       "category": "Third Turning (Unraveling)",
       "url": "https://www.internetsociety.org/internet/history-internet/"
     },
     {
-      "description": "End of Cold War",
+      "description": "Operation Desert Storm (Gulf War)",
       "year": 1991,
       "category": "Third Turning (Unraveling)",
-      "url": "https://history.state.gov/departmenthistory/short-history/endofcoldwar"
+      "url": "https://en.wikipedia.org/wiki/Gulf_War"
+    },
+    {
+      "description": "End of the Cold War",
+      "year": 1991,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/End_of_the_Cold_War"
+    },
+    {
+      "description": "Rodney King Beating and Los Angeles Riots",
+      "year": 1992,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots"
+    },
+    {
+      "description": "World Trade Center Bombing",
+      "year": 1993,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/1993_World_Trade_Center_bombing"
+    },
+    {
+      "description": "NAFTA Agreement Signed",
+      "year": 1994,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/North_American_Free_Trade_Agreement"
+    },
+    {
+      "description": "O.J. Simpson Trial Captivates America",
+      "year": 1995,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/O._J._Simpson_murder_case"
+    },
+    {
+      "description": "Oklahoma City Bombing",
+      "year": 1995,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Oklahoma_City_bombing"
+    },
+    {
+      "description": "Internet and World Wide Web Go Mainstream",
+      "year": 1995,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+    },
+    {
+      "description": "Clinton Impeachment Trial",
+      "year": 1998,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Impeachment_of_Bill_Clinton"
+    },
+    {
+      "description": "Columbine High School Shooting",
+      "year": 1999,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Columbine_High_School_massacre"
+    },
+    {
+      "description": "Y2K Preparations Reflect Global Tech Anxiety",
+      "year": 1999,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Year_2000_problem"
+    },
+    {
+      "description": "Dot-Com Bubble Burst",
+      "year": 2000,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.investopedia.com/terms/d/dotcom-bubble.asp"
     },
     {
       "description": "9/11 Terrorist Attacks",
@@ -61,6 +403,24 @@
       "year": 2020,
       "category": "Fourth Turning (Crisis)",
       "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+    },
+    {
+      "description": "Black Lives Matter Protests",
+      "year": 2020,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Black_Lives_Matter"
+    },
+    {
+      "description": "Capitol Riot",
+      "year": 2021,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack"
+    },
+    {
+      "description": "Global Climate Protests (Greta Thunberg Movement)",
+      "year": 2019,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/School_strike_for_climate"
     }
   ]
 }

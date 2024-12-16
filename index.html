@@ -87,9 +87,9 @@
     }
 
     .legend {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 15px;
-      flex-wrap: wrap;
       margin-bottom: 20px;
       padding: 15px;
       background: white;
@@ -98,14 +98,34 @@
 
     .legend-item {
       display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 12px;
+      border-radius: 6px;
+      transition: transform 0.2s;
+    }
+
+    .legend-item:hover {
+      transform: translateY(-2px);
+    }
+
+    .legend-header {
+      display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 8px;
+      font-weight: 600;
     }
 
     .legend-color {
       width: 12px;
       height: 12px;
       border-radius: 3px;
+    }
+
+    .legend-description {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.4;
     }
 
     .saeculum-header {
@@ -125,28 +145,48 @@
       margin: 5px 0 0;
       color: #666;
       font-size: 14px;
-    }    
+    }
   </style>
 </head>
 <body>
   <h1>Historical Events Timeline</h1>
   
   <div class="legend">
-    <div class="legend-item">
-      <div class="legend-color" style="background: #FFE0E0"></div>
-      <span>Fourth Turning (Crisis)</span>
+    <div class="legend-item" style="background: #FFE0E0; background-opacity: 0.1;">
+      <div class="legend-header">
+        <div class="legend-color" style="background: #FFE0E0"></div>
+        <span>Fourth Turning (Crisis)</span>
+      </div>
+      <div class="legend-description">
+        A decisive era of upheaval when institutional life is destroyed and rebuilt in response to a perceived threat to the nation's survival. Examples include the American Revolution, Civil War, and World War II.
+      </div>
     </div>
-    <div class="legend-item">
-      <div class="legend-color" style="background: #E1F5FE"></div>
-      <span>Third Turning (Unraveling)</span>
+    <div class="legend-item" style="background: #E1F5FE; background-opacity: 0.1;">
+      <div class="legend-header">
+        <div class="legend-color" style="background: #E1F5FE"></div>
+        <span>Third Turning (Unraveling)</span>
+      </div>
+      <div class="legend-description">
+        A downcast era of strengthening individualism and weakening institutions, when the old civic order decays and the new values regime implants. Similar to the 1990s and early 2000s.
+      </div>
     </div>
-    <div class="legend-item">
-      <div class="legend-color" style="background: #E8F5E9"></div>
-      <span>Second Turning (Awakening)</span>
+    <div class="legend-item" style="background: #E8F5E9; background-opacity: 0.1;">
+      <div class="legend-header">
+        <div class="legend-color" style="background: #E8F5E9"></div>
+        <span>Second Turning (Awakening)</span>
+      </div>
+      <div class="legend-description">
+        A passionate era of spiritual upheaval, when the civic order comes under attack from a new values regime. Examples include the Progressive Era and the "Consciousness Revolution" of the 1960s.
+      </div>
     </div>
-    <div class="legend-item">
-      <div class="legend-color" style="background: #FFF3E0"></div>
-      <span>First Turning (High)</span>
+    <div class="legend-item" style="background: #FFF3E0; background-opacity: 0.1;">
+      <div class="legend-header">
+        <div class="legend-color" style="background: #FFF3E0"></div>
+        <span>First Turning (High)</span>
+      </div>
+      <div class="legend-description">
+        An upbeat era of strengthening institutions and weakening individualism, when a new civic order implants and the old values regime decays. Examples include the post-World War II American High.
+      </div>
     </div>
   </div>
 

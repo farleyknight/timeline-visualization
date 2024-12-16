@@ -27,11 +27,77 @@
       "url": "https://www.history.com/topics/early-20th-century-us/progressive-era"
     },
     {
+      "description": "Ford Model T Mass Production Begins",
+      "year": 1908,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Ford_Model_T"
+    },
+    {
+      "description": "NAACP Founded to Promote Civil Rights",
+      "year": 1909,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/NAACP"
+    },        
+    {
+      "description": "Triangle Shirtwaist Factory Fire",
+      "year": 1911,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Triangle_Shirtwaist_Factory_fire"
+    },
+    {
+      "description": "Federal Reserve Act Signed into Law",
+      "year": 1913,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Federal_Reserve_Act"
+    },        
+    {
       "description": "World War I",
       "year": 1914,
       "category": "Third Turning (Unraveling)",
       "url": "https://www.history.com/topics/world-war-i/world-war-i-history"
     },
+    {
+      "description": "Lusitania Sinking Brings U.S. Closer to War",
+      "year": 1915,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/RMS_Lusitania"
+    },
+    {
+      "description": "National Park Service Established",
+      "year": 1916,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/National_Park_Service"
+    },    
+    {
+      "description": "Zimmermann Telegram Pushes U.S. Toward War",
+      "year": 1917,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Zimmermann_Telegram"
+    },
+    {
+      "description": "United States Enters World War I",
+      "year": 1917,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/United_States_in_World_War_I"
+    },
+    {
+      "description": "Espionage Act Passed",
+      "year": 1917,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Espionage_Act_of_1917"
+    },
+    {
+      "description": "First Red Scare Sweeps America",
+      "year": 1919,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/First_Red_Scare"
+    },
+    {
+      "description": "Treaty of Versailles Ends World War I",
+      "year": 1919,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+    },                    
     {
       "description": "Roaring Twenties Economic Boom",
       "year": 1920,
@@ -45,17 +111,113 @@
       "url": "https://www.history.com/topics/roaring-twenties/prohibition"
     },
     {
+      "description": "19th Amendment Grants Women the Right to Vote",
+      "year": 1920,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution"
+    },
+    {
+      "description": "Teapot Dome Scandal Exposes Corruption",
+      "year": 1921,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Teapot_Dome_scandal"
+    },
+    {
+      "description": "Harlem Renaissance Flourishes",
+      "year": 1920,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Harlem_Renaissance"
+    }, 
+    {
+      "description": "The Great Migration Peaks",
+      "year": 1920,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Great_Migration_(African_American)"
+    },
+    {
+      "description": "Scopes Trial Challenges Evolution in Schools",
+      "year": 1925,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Scopes_Trial"
+    },
+    {
+      "description": "Charles Lindbergh Completes First Solo Transatlantic Flight",
+      "year": 1927,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh"
+    },
+    {
+      "description": "Sacco and Vanzetti Executed Amid Controversy",
+      "year": 1927,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Sacco_and_Vanzetti"
+    },                
+    {
       "description": "Stock Market Crash of 1929",
       "year": 1929,
       "category": "Fourth Turning (Crisis)",
       "url": "https://www.history.com/topics/great-depression/1929-stock-market-crash"
     },
     {
+      "description": "Smoot-Hawley Tariff Act Passed",
+      "year": 1930,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act"
+    },
+    {
+      "description": "Bank Runs Begin Leading to Bank Failures",
+      "year": 1931,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Great_Depression_in_the_United_States"
+    },
+    {
+      "description": "Franklin D. Roosevelt Elected President",
+      "year": 1932,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt"
+    },            
+    {
       "description": "Great Depression Peaks",
       "year": 1933,
       "category": "Fourth Turning (Crisis)",
       "url": "https://www.federalreservehistory.org/essays/great-depression"
     },
+    {
+      "description": "New Deal Programs Introduced",
+      "year": 1933,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/New_Deal"
+    },
+    {
+      "description": "Dust Bowl Devastates Midwest",
+      "year": 1934,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Dust_Bowl"
+    },
+    {
+      "description": "Social Security Act Signed",
+      "year": 1935,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Social_Security_Act"
+    }, 
+    {
+      "description": "Wagner Act Strengthens Labor Unions",
+      "year": 1935,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/National_Labor_Relations_Act_of_1935"
+    },
+    {
+      "description": "Roosevelt Re-Elected During Economic Crisis",
+      "year": 1936,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/1936_United_States_presidential_election"
+    },
+    {
+      "description": "Germany Invades Poland, World War II Begins",
+      "year": 1939,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+    },    
     {
       "description": "World War II Begins",
       "year": 1939,
@@ -69,10 +231,40 @@
       "url": "https://www.nps.gov/perl/learn/historyculture/attack.htm"
     },
     {
+      "description": "Executive Order 9066 and Japanese Internment",
+      "year": 1942,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Executive_Order_9066"
+    },
+    {
+      "description": "D-Day Invasion of Normandy",
+      "year": 1944,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Normandy_landings"
+    },
+    {
+      "description": "Yalta Conference Shapes Postwar World",
+      "year": 1945,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Yalta_Conference"
+    },            
+    {
       "description": "World War II Ends",
       "year": 1945,
       "category": "Fourth Turning (Crisis)",
       "url": "https://www.archives.gov/research/military/ww2/end"
-    }
+    },
+    {
+      "description": "Atomic Bombs Dropped on Hiroshima and Nagasaki",
+      "year": 1945,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+    },
+    {
+      "description": "United Nations Established to Promote Peace",
+      "year": 1945,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/United_Nations"
+    }        
   ]
 }
