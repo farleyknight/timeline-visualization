@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Strauss-Howe Timeline</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -55,7 +56,6 @@
       width: fit-content;
     }
 
-    /* Category-specific styles */
     .fourth-turning {
       background: #FFE0E0;
       color: #D32F2F;
@@ -124,109 +124,42 @@
   <div class="timeline" id="timeline"></div>
 
   <script>
-    const events = [
-      {
-        "description": "COVID-19 Pandemic",
-        "year": 2020,
-        "category": "Fourth Turning (Crisis)"
-      },
-      {
-        "description": "Global Financial Crisis",
-        "year": 2008,
-        "category": "Fourth Turning (Crisis)"
-      },
-      {
-        "description": "9/11 Terrorist Attacks",
-        "year": 2001,
-        "category": "Third Turning (Unraveling)"
-      },
-      {
-        "description": "Dot-com Bubble and Burst",
-        "year": 2000,
-        "category": "Third Turning (Unraveling)"
-      },
-      {
-        "description": "End of Cold War",
-        "year": 1991,
-        "category": "Third Turning (Unraveling)"
-      },
-      {
-        "description": "Rise of Internet and Tech Boom",
-        "year": 1990,
-        "category": "Third Turning (Unraveling)"
-      },
-      {
-        "description": "Environmental Movement Peak",
-        "year": 1970,
-        "category": "Second Turning (Awakening)"
-      },
-      {
-        "description": "Women's Liberation Movement",
-        "year": 1968,
-        "category": "Second Turning (Awakening)"
-      },
-      {
-        "description": "Civil Rights Movement Peak",
-        "year": 1965,
-        "category": "Second Turning (Awakening)"
-      },
-      {
-        "description": "Anti-Vietnam War Protests",
-        "year": 1964,
-        "category": "Second Turning (Awakening)"
-      },
-      {
-        "description": "Space Race Begins",
-        "year": 1957,
-        "category": "First Turning (High)"
-      },
-      {
-        "description": "Post-WWII Economic Boom",
-        "year": 1950,
-        "category": "First Turning (High)"
-      },
-      {
-        "description": "Baby Boom Begins",
-        "year": 1946,
-        "category": "First Turning (High)"
-      },
-      {
-        "description": "World War II Ends",
-        "year": 1945,
-        "category": "Fourth Turning (Crisis)"
-      },
-      {
-        "description": "Pearl Harbor Attack",
-        "year": 1941,
-        "category": "Fourth Turning (Crisis)"
-      },
-      {
-        "description": "Great Depression Begins",
-        "year": 1929,
-        "category": "Fourth Turning (Crisis)"
+    async function loadTimelineData() {
+      try {
+        const response = await fetch('timeline.json');
+        const data = await response.json();
+        return data.events;
+      } catch (error) {
+        console.error('Error loading timeline data:', error);
+        return [];
       }
-    ];
+    }
 
     function getCategoryClass(category) {
       return category.toLowerCase().split(' ')[0].replace('(', '').replace(')', '') + '-turning';
     }
 
-    const timeline = document.getElementById('timeline');
-    
-    events.forEach(event => {
-      const eventElement = document.createElement('div');
-      eventElement.className = 'event';
+    async function initializeTimeline() {
+      const events = await loadTimelineData();
+      const timeline = document.getElementById('timeline');
       
-      eventElement.innerHTML = `
-        <div class="year">${event.year}</div>
-        <div class="content">
-          <div class="description">${event.description}</div>
-          <div class="category ${getCategoryClass(event.category)}">${event.category}</div>
-        </div>
-      `;
-      
-      timeline.appendChild(eventElement);
-    });
+      events.forEach(event => {
+        const eventElement = document.createElement('div');
+        eventElement.className = 'event';
+        
+        eventElement.innerHTML = `
+          <div class="year">${event.year}</div>
+          <div class="content">
+            <div class="description">${event.description}</div>
+            <div class="category ${getCategoryClass(event.category)}">${event.category}</div>
+          </div>
+        `;
+        
+        timeline.appendChild(eventElement);
+      });
+    }
+
+    initializeTimeline();
   </script>
 </body>
 </html>
