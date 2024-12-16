@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+      background: #f5f5f5;
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .event {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      background: white;
+    }
+
+    .event:hover {
+      transform: translateX(10px);
+    }
+
+    .year {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .description {
+      font-size: 16px;
+      color: #333;
+    }
+
+    .category {
+      font-size: 14px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      width: fit-content;
+    }
+
+    /* Category-specific styles */
+    .fourth-turning {
+      background: #FFE0E0;
+      color: #D32F2F;
+    }
+
+    .third-turning {
+      background: #E1F5FE;
+      color: #0288D1;
+    }
+
+    .second-turning {
+      background: #E8F5E9;
+      color: #388E3C;
+    }
+
+    .first-turning {
+      background: #FFF3E0;
+      color: #F57C00;
+    }
+
+    .legend {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: white;
+      border-radius: 8px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .legend-color {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Historical Events Timeline</h1>
+  
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-color" style="background: #FFE0E0"></div>
+      <span>Fourth Turning (Crisis)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #E1F5FE"></div>
+      <span>Third Turning (Unraveling)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #E8F5E9"></div>
+      <span>Second Turning (Awakening)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #FFF3E0"></div>
+      <span>First Turning (High)</span>
+    </div>
+  </div>
+
+  <div class="timeline" id="timeline"></div>
+
+  <script>
+    const events = [
+      {
+        "description": "COVID-19 Pandemic",
+        "year": 2020,
+        "category": "Fourth Turning (Crisis)"
+      },
+      {
+        "description": "Global Financial Crisis",
+        "year": 2008,
+        "category": "Fourth Turning (Crisis)"
+      },
+      {
+        "description": "9/11 Terrorist Attacks",
+        "year": 2001,
+        "category": "Third Turning (Unraveling)"
+      },
+      {
+        "description": "Dot-com Bubble and Burst",
+        "year": 2000,
+        "category": "Third Turning (Unraveling)"
+      },
+      {
+        "description": "End of Cold War",
+        "year": 1991,
+        "category": "Third Turning (Unraveling)"
+      },
+      {
+        "description": "Rise of Internet and Tech Boom",
+        "year": 1990,
+        "category": "Third Turning (Unraveling)"
+      },
+      {
+        "description": "Environmental Movement Peak",
+        "year": 1970,
+        "category": "Second Turning (Awakening)"
+      },
+      {
+        "description": "Women's Liberation Movement",
+        "year": 1968,
+        "category": "Second Turning (Awakening)"
+      },
+      {
+        "description": "Civil Rights Movement Peak",
+        "year": 1965,
+        "category": "Second Turning (Awakening)"
+      },
+      {
+        "description": "Anti-Vietnam War Protests",
+        "year": 1964,
+        "category": "Second Turning (Awakening)"
+      },
+      {
+        "description": "Space Race Begins",
+        "year": 1957,
+        "category": "First Turning (High)"
+      },
+      {
+        "description": "Post-WWII Economic Boom",
+        "year": 1950,
+        "category": "First Turning (High)"
+      },
+      {
+        "description": "Baby Boom Begins",
+        "year": 1946,
+        "category": "First Turning (High)"
+      },
+      {
+        "description": "World War II Ends",
+        "year": 1945,
+        "category": "Fourth Turning (Crisis)"
+      },
+      {
+        "description": "Pearl Harbor Attack",
+        "year": 1941,
+        "category": "Fourth Turning (Crisis)"
+      },
+      {
+        "description": "Great Depression Begins",
+        "year": 1929,
+        "category": "Fourth Turning (Crisis)"
+      }
+    ];
+
+    function getCategoryClass(category) {
+      return category.toLowerCase().split(' ')[0].replace('(', '').replace(')', '') + '-turning';
+    }
+
+    const timeline = document.getElementById('timeline');
+    
+    events.forEach(event => {
+      const eventElement = document.createElement('div');
+      eventElement.className = 'event';
+      
+      eventElement.innerHTML = `
+        <div class="year">${event.year}</div>
+        <div class="content">
+          <div class="description">${event.description}</div>
+          <div class="category ${getCategoryClass(event.category)}">${event.category}</div>
+        </div>
+      `;
+      
+      timeline.appendChild(eventElement);
+    });
+  </script>
+</body>
+</html>
