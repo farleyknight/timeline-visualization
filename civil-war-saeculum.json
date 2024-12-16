@@ -1,0 +1,42 @@
+{
+  "name": "Civil War Saeculum",
+  "period": "1794-1865",
+  "events": [
+    {
+      "description": "Era of Good Feelings",
+      "year": 1815,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Era_of_Good_Feelings"
+    },
+    {
+      "description": "Transcendental Awakening Begins",
+      "year": 1820,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Transcendentalism"
+    },
+    {
+      "description": "Abolitionist Movement Gains Traction",
+      "year": 1830,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.history.com/topics/black-history/abolitionist-movement"
+    },
+    {
+      "description": "Mexican-American War",
+      "year": 1846,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+    },
+    {
+      "description": "California Gold Rush",
+      "year": 1848,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/California_Gold_Rush"
+    },
+    {
+      "description": "Civil War Begins",
+      "year": 1861,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/American_Civil_War"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Revolutionary Saeculum",
+  "period": "1704-1794",
+  "events": [
+    {
+      "description": "Augustan Age of Empire",
+      "year": 1704,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Augustan_Age"
+    },
+    {
+      "description": "Great Awakening",
+      "year": 1730,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/First_Great_Awakening"
+    },
+    {
+      "description": "Seven Years' War (French and Indian War)",
+      "year": 1756,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Seven_Years%27_War"
+    },
+    {
+      "description": "Age of Revolution Begins",
+      "year": 1775,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Age_of_Revolution"
+    },
+    {
+      "description": "American Revolutionary War",
+      "year": 1776,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War"
+    },
+    {
+      "description": "French Revolution Begins",
+      "year": 1789,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/French_Revolution"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "New World Saeculum",
+  "period": "1594-1704",
+  "events": [
+    {
+      "description": "Merrie England",
+      "year": 1594,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Merry_England"
+    },
+    {
+      "description": "Puritan Awakening Begins",
+      "year": 1621,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Puritanism"
+    },
+    {
+      "description": "Antinomian Controversy",
+      "year": 1636,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Antinomian_Controversy"
+    },
+    {
+      "description": "English Restoration",
+      "year": 1660,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Restoration_(England)"
+    },
+    {
+      "description": "Glorious Revolution",
+      "year": 1688,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Glorious_Revolution"
+    }
+  ]
+}
