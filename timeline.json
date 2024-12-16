@@ -1,84 +1,256 @@
 {
   "events": [
     {
-      "description": "COVID-19 Pandemic",
-      "year": 2020,
-      "category": "Fourth Turning (Crisis)"
+      "description": "Industrial Revolution Begins",
+      "year": 1760,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.britannica.com/event/Industrial-Revolution"
     },
     {
-      "description": "Global Financial Crisis",
-      "year": 2008,
-      "category": "Fourth Turning (Crisis)"
+      "description": "American Revolution",
+      "year": 1776,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.history.com/topics/american-revolution/american-revolution-history"
     },
     {
-      "description": "9/11 Terrorist Attacks",
-      "year": 2001,
-      "category": "Third Turning (Unraveling)"
+      "description": "French Revolution",
+      "year": 1789,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.britannica.com/event/French-Revolution"
     },
     {
-      "description": "Dot-com Bubble and Burst",
-      "year": 2000,
-      "category": "Third Turning (Unraveling)"
+      "description": "War of 1812",
+      "year": 1812,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.history.com/topics/war-of-1812/war-of-1812-history"
     },
     {
-      "description": "End of Cold War",
-      "year": 1991,
-      "category": "Third Turning (Unraveling)"
+      "description": "Romantic Era Flourishes",
+      "year": 1820,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.britannica.com/art/Romanticism"
     },
     {
-      "description": "Rise of Internet and Tech Boom",
-      "year": 1990,
-      "category": "Third Turning (Unraveling)"
+      "description": "American Civil War",
+      "year": 1861,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.history.com/topics/american-civil-war/american-civil-war-history"
     },
     {
-      "description": "Environmental Movement Peak",
-      "year": 1970,
-      "category": "Second Turning (Awakening)"
+      "description": "Reconstruction Era Begins",
+      "year": 1865,
+      "category": "First Turning (High)",
+      "url": "https://www.history.com/topics/american-civil-war/reconstruction"
     },
     {
-      "description": "Women's Liberation Movement",
-      "year": 1968,
-      "category": "Second Turning (Awakening)"
+      "description": "Gilded Age",
+      "year": 1870,
+      "category": "First Turning (High)",
+      "url": "https://www.britannica.com/event/Gilded-Age"
     },
     {
-      "description": "Civil Rights Movement Peak",
-      "year": 1965,
-      "category": "Second Turning (Awakening)"
+      "description": "Progressive Era",
+      "year": 1900,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.history.com/topics/early-20th-century-us/progressive-era"
     },
     {
-      "description": "Anti-Vietnam War Protests",
-      "year": 1964,
-      "category": "Second Turning (Awakening)"
-    },
-    {
-      "description": "Space Race Begins",
-      "year": 1957,
-      "category": "First Turning (High)"
-    },
-    {
-      "description": "Post-WWII Economic Boom",
-      "year": 1950,
-      "category": "First Turning (High)"
-    },
-    {
-      "description": "Baby Boom Begins",
-      "year": 1946,
-      "category": "First Turning (High)"
-    },
-    {
-      "description": "World War II Ends",
-      "year": 1945,
-      "category": "Fourth Turning (Crisis)"
-    },
-    {
-      "description": "Pearl Harbor Attack",
-      "year": 1941,
-      "category": "Fourth Turning (Crisis)"
+      "description": "World War I",
+      "year": 1914,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.history.com/topics/world-war-i/world-war-i-history"
     },
     {
       "description": "Great Depression Begins",
       "year": 1929,
-      "category": "Fourth Turning (Crisis)"
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.federalreservehistory.org/essays/great-depression"
+    },
+    {
+      "description": "Pearl Harbor Attack",
+      "year": 1941,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.nps.gov/perl/learn/historyculture/attack.htm"
+    },
+    {
+      "description": "World War II Ends",
+      "year": 1945,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.archives.gov/research/military/ww2/end"
+    },
+    {
+      "description": "Baby Boom Begins",
+      "year": 1946,
+      "category": "First Turning (High)",
+      "url": "https://www.census.gov/history/www/through_the_decades/fast_facts/1940_fast_facts.html"
+    },
+    {
+      "description": "Post-WWII Economic Boom",
+      "year": 1950,
+      "category": "First Turning (High)",
+      "url": "https://www.loc.gov/exhibits/hope-for-america/postwar-america.html"
+    },
+    {
+      "description": "Space Race Begins",
+      "year": 1957,
+      "category": "First Turning (High)",
+      "url": "https://www.nasa.gov/history/sputnik-the-beginning-of-the-space-age/"
+    },
+    {
+      "description": "Anti-Vietnam War Protests",
+      "year": 1964,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.archives.gov/research/military/vietnam-war/protest"
+    },
+    {
+      "description": "Civil Rights Movement Peak",
+      "year": 1965,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.nps.gov/subjects/civilrights/modern-civil-rights-movement.htm"
+    },
+    {
+      "description": "Women's Liberation Movement",
+      "year": 1968,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.womenshistory.org/womens-movements"
+    },
+    {
+      "description": "Environmental Movement Peak",
+      "year": 1970,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.epa.gov/history/origins-epa"
+    },
+    {
+      "description": "Rise of Internet and Tech Boom",
+      "year": 1990,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.internetsociety.org/internet/history-internet/"
+    },
+    {
+      "description": "End of Cold War",
+      "year": 1991,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://history.state.gov/departmenthistory/short-history/endofcoldwar"
+    },
+    {
+      "description": "Dot-com Bubble and Burst",
+      "year": 2000,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.federalreservehistory.org/essays/dot-com-bubble"
+    },
+    {
+      "description": "9/11 Terrorist Attacks",
+      "year": 2001,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.911memorial.org/learn/resources/digital-exhibitions"
+    },
+    {
+      "description": "Global Financial Crisis",
+      "year": 2008,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath"
+    },
+    {
+      "description": "COVID-19 Pandemic",
+      "year": 2020,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+    },
+    {
+      "description": "Stock Market Crash",
+      "year": 1929,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.federalreservehistory.org/essays/great-depression"
+    },
+    {
+      "description": "World War I Ends",
+      "year": 1918,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.history.com/topics/world-war-i/world-war-i-history"
+    },
+    {
+      "description": "Roaring Twenties Begin",
+      "year": 1920,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.britannica.com/event/Roaring-Twenties"
+    },
+    {
+      "description": "Trust-Busting Movement Intensifies",
+      "year": 1901,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.history.com/topics/early-20th-century-us/progressive-era"
+    },
+    {
+      "description": "Creation of the Federal Reserve",
+      "year": 1913,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.federalreserve.gov/aboutthefed/history.htm"
+    },
+    {
+      "description": "Gilded Age Peaks",
+      "year": 1870,
+      "category": "First Turning (High)",
+      "url": "https://www.britannica.com/event/Gilded-Age"
+    },
+    {
+      "description": "Credit Mobilier Scandal",
+      "year": 1872,
+      "category": "First Turning (High)",
+      "url": "https://www.senate.gov/artandhistory/history/minute/Credit_Mobilier_Scandal.htm"
+    },
+    {
+      "description": "Urbanization Surge in the United States",
+      "year": 1880,
+      "category": "First Turning (High)",
+      "url": "https://www.history.com/topics/19th-century/urbanization"
+    },
+    {
+      "description": "Labor Strikes and Haymarket Affair",
+      "year": 1886,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.history.com/topics/19th-century/haymarket-affair"
+    },
+    {
+      "description": "Women's Suffrage Movement Expands",
+      "year": 1890,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.history.com/topics/womens-history/the-fight-for-womens-suffrage"
+    },
+    {
+      "description": "Conservation Movement Rises",
+      "year": 1905,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.nps.gov/subjects/americanhistory/conservation-movement.htm"
+    },
+    {
+      "description": "Panic of 1873",
+      "year": 1873,
+      "category": "First Turning (High)",
+      "url": "https://www.history.com/topics/19th-century/panic-of-1873"
+    },
+    {
+      "description": "Standard Oil Founded",
+      "year": 1870,
+      "category": "First Turning (High)",
+      "url": "https://www.history.com/topics/industrial-revolution/john-d-rockefeller"
+    },
+    {
+      "description": "World's Columbian Exposition in Chicago",
+      "year": 1893,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.britannica.com/event/Worlds-Columbian-Exposition"
+    },
+    {
+      "description": "Spanish-American War",
+      "year": 1898,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.history.com/topics/early-20th-century-us/spanish-american-war"
+    },
+    {
+      "description": "Great Railroad Strike of 1877",
+      "year": 1877,
+      "category": "First Turning (High)",
+      "url": "https://www.history.com/topics/19th-century/great-railroad-strike-of-1877"
     }
   ]
 }

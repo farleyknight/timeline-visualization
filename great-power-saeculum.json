@@ -1,0 +1,78 @@
+{
+  "name": "Great Power Saeculum",
+  "period": "1865-1946",
+  "events": [
+    {
+      "description": "Reconstruction Era Begins",
+      "year": 1865,
+      "category": "First Turning (High)",
+      "url": "https://www.history.com/topics/american-civil-war/reconstruction"
+    },
+    {
+      "description": "Gilded Age",
+      "year": 1870,
+      "category": "First Turning (High)",
+      "url": "https://www.britannica.com/event/Gilded-Age"
+    },
+    {
+      "description": "Missionary Awakening Begins",
+      "year": 1886,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Progressive_Era"
+    },
+    {
+      "description": "Progressive Era Reforms",
+      "year": 1900,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.history.com/topics/early-20th-century-us/progressive-era"
+    },
+    {
+      "description": "World War I",
+      "year": 1914,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.history.com/topics/world-war-i/world-war-i-history"
+    },
+    {
+      "description": "Roaring Twenties Economic Boom",
+      "year": 1920,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Roaring_Twenties"
+    },
+    {
+      "description": "Prohibition in the United States",
+      "year": 1920,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.history.com/topics/roaring-twenties/prohibition"
+    },
+    {
+      "description": "Stock Market Crash of 1929",
+      "year": 1929,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.history.com/topics/great-depression/1929-stock-market-crash"
+    },
+    {
+      "description": "Great Depression Peaks",
+      "year": 1933,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.federalreservehistory.org/essays/great-depression"
+    },
+    {
+      "description": "World War II Begins",
+      "year": 1939,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.history.com/topics/world-war-ii/world-war-ii-history"
+    },
+    {
+      "description": "Pearl Harbor Attack",
+      "year": 1941,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.nps.gov/perl/learn/historyculture/attack.htm"
+    },
+    {
+      "description": "World War II Ends",
+      "year": 1945,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.archives.gov/research/military/ww2/end"
+    }
+  ]
+}

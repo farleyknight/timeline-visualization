@@ -49,6 +49,16 @@
       color: #333;
     }
 
+    .description a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px dotted #666;
+    }
+
+    .description a:hover {
+      border-bottom: 1px solid #333;
+    }
+
     .category {
       font-size: 14px;
       padding: 4px 8px;
@@ -97,6 +107,25 @@
       height: 12px;
       border-radius: 3px;
     }
+
+    .saeculum-header {
+      margin: 30px 0 15px;
+      padding: 10px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .saeculum-header h2 {
+      margin: 0;
+      color: #333;
+    }
+
+    .saeculum-header p {
+      margin: 5px 0 0;
+      color: #666;
+      font-size: 14px;
+    }    
   </style>
 </head>
 <body>
@@ -124,11 +153,20 @@
   <div class="timeline" id="timeline"></div>
 
   <script>
+    const TIMELINE_FILES = [
+      'millennial-saeculum.json',
+      'great-power-saeculum.json',
+      'industrial-saeculum.json',
+    ];
+
     async function loadTimelineData() {
       try {
-        const response = await fetch('timeline.json');
-        const data = await response.json();
-        return data.events;
+        const promises = TIMELINE_FILES.map(file => 
+          fetch(file).then(response => response.json())
+        );
+        
+        const saecula = await Promise.all(promises);
+        return saecula;
       } catch (error) {
         console.error('Error loading timeline data:', error);
         return [];
@@ -139,23 +177,50 @@
       return category.toLowerCase().split(' ')[0].replace('(', '').replace(')', '') + '-turning';
     }
 
+    function createEventLink(description, url) {
+      if (url) {
+        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${description}</a>`;
+      }
+      return description;
+    }
+
+    function createSaeculumHeader(saeculum) {
+      const header = document.createElement('div');
+      header.className = 'saeculum-header';
+      header.innerHTML = `
+        <h2>${saeculum.name}</h2>
+        <p>${saeculum.period}</p>
+      `;
+      return header;
+    }
+
     async function initializeTimeline() {
-      const events = await loadTimelineData();
+      const saecula = await loadTimelineData();
       const timeline = document.getElementById('timeline');
       
-      events.forEach(event => {
-        const eventElement = document.createElement('div');
-        eventElement.className = 'event';
+      // Process each saeculum
+      saecula.forEach(saeculum => {
+        // Add saeculum header
+        timeline.appendChild(createSaeculumHeader(saeculum));
         
-        eventElement.innerHTML = `
-          <div class="year">${event.year}</div>
-          <div class="content">
-            <div class="description">${event.description}</div>
-            <div class="category ${getCategoryClass(event.category)}">${event.category}</div>
-          </div>
-        `;
+        // Sort events within this saeculum in reverse chronological order
+        saeculum.events.sort((a, b) => b.year - a.year);
         
-        timeline.appendChild(eventElement);
+        // Add events
+        saeculum.events.forEach(event => {
+          const eventElement = document.createElement('div');
+          eventElement.className = 'event';
+          
+          eventElement.innerHTML = `
+            <div class="year">${event.year}</div>
+            <div class="content">
+              <div class="description">${createEventLink(event.description, event.url)}</div>
+              <div class="category ${getCategoryClass(event.category)}">${event.category}</div>
+            </div>
+          `;
+          
+          timeline.appendChild(eventElement);
+        });
       });
     }
 

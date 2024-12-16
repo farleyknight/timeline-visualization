@@ -1,0 +1,66 @@
+{
+  "name": "Millennial Saeculum",
+  "period": "1946-Present",
+  "events": [
+    {
+      "description": "Baby Boom Begins",
+      "year": 1946,
+      "category": "First Turning (High)",
+      "url": "https://www.census.gov/history/www/through_the_decades/fast_facts/1940_fast_facts.html"
+    },
+    {
+      "description": "Post-WWII Economic Boom",
+      "year": 1950,
+      "category": "First Turning (High)",
+      "url": "https://www.loc.gov/exhibits/hope-for-america/postwar-america.html"
+    },
+    {
+      "description": "Space Race Begins",
+      "year": 1957,
+      "category": "First Turning (High)",
+      "url": "https://www.nasa.gov/history/sputnik-the-beginning-of-the-space-age/"
+    },
+    {
+      "description": "Anti-Vietnam War Protests",
+      "year": 1964,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.archives.gov/research/military/vietnam-war/protest"
+    },
+    {
+      "description": "Civil Rights Movement Peak",
+      "year": 1965,
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.nps.gov/subjects/civilrights/modern-civil-rights-movement.htm"
+    },
+    {
+      "description": "Rise of Internet and Tech Boom",
+      "year": 1990,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.internetsociety.org/internet/history-internet/"
+    },
+    {
+      "description": "End of Cold War",
+      "year": 1991,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://history.state.gov/departmenthistory/short-history/endofcoldwar"
+    },
+    {
+      "description": "9/11 Terrorist Attacks",
+      "year": 2001,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://www.911memorial.org/learn/resources/digital-exhibitions"
+    },
+    {
+      "description": "Global Financial Crisis",
+      "year": 2008,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath"
+    },
+    {
+      "description": "COVID-19 Pandemic",
+      "year": 2020,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+    }
+  ]
+}
