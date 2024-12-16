@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "description": "COVID-19 Pandemic",
+      "year": 2020,
+      "category": "Fourth Turning (Crisis)"
+    },
+    {
+      "description": "Global Financial Crisis",
+      "year": 2008,
+      "category": "Fourth Turning (Crisis)"
+    },
+    {
+      "description": "9/11 Terrorist Attacks",
+      "year": 2001,
+      "category": "Third Turning (Unraveling)"
+    },
+    {
+      "description": "Dot-com Bubble and Burst",
+      "year": 2000,
+      "category": "Third Turning (Unraveling)"
+    },
+    {
+      "description": "End of Cold War",
+      "year": 1991,
+      "category": "Third Turning (Unraveling)"
+    },
+    {
+      "description": "Rise of Internet and Tech Boom",
+      "year": 1990,
+      "category": "Third Turning (Unraveling)"
+    },
+    {
+      "description": "Environmental Movement Peak",
+      "year": 1970,
+      "category": "Second Turning (Awakening)"
+    },
+    {
+      "description": "Women's Liberation Movement",
+      "year": 1968,
+      "category": "Second Turning (Awakening)"
+    },
+    {
+      "description": "Civil Rights Movement Peak",
+      "year": 1965,
+      "category": "Second Turning (Awakening)"
+    },
+    {
+      "description": "Anti-Vietnam War Protests",
+      "year": 1964,
+      "category": "Second Turning (Awakening)"
+    },
+    {
+      "description": "Space Race Begins",
+      "year": 1957,
+      "category": "First Turning (High)"
+    },
+    {
+      "description": "Post-WWII Economic Boom",
+      "year": 1950,
+      "category": "First Turning (High)"
+    },
+    {
+      "description": "Baby Boom Begins",
+      "year": 1946,
+      "category": "First Turning (High)"
+    },
+    {
+      "description": "World War II Ends",
+      "year": 1945,
+      "category": "Fourth Turning (Crisis)"
+    },
+    {
+      "description": "Pearl Harbor Attack",
+      "year": 1941,
+      "category": "Fourth Turning (Crisis)"
+    },
+    {
+      "description": "Great Depression Begins",
+      "year": 1929,
+      "category": "Fourth Turning (Crisis)"
+    }
+  ]
+}
