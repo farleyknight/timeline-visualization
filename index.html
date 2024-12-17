@@ -9,40 +9,67 @@
   <div id="app">
     <h1>Historical Events Timeline</h1>
     
-    <div class="legend">
-      <div v-for="turn in turningTypes" :key="turn.name" 
-           class="legend-item" :style="{ background: turn.lightColor }">
-        <div class="legend-header">
-          <div class="legend-color" :style="{ background: turn.color }"></div>
-          <span>{{ turn.name }}</span>
-        </div>
-        <div class="legend-description">{{ turn.description }}</div>
-      </div>
-    </div>
+    <div class="app-container">
+      <aside class="sidebar">
+        <nav class="sidebar-nav">
+          <!-- Legend View Option -->
+          <div class="sidebar-item"
+               :class="{ active: selectedView === 'legend' }"
+               @click="selectedView = 'legend'">
+            <div>About the Turnings</div>
+            <div class="period">Understanding the Cycles</div>
+          </div>
+          
+          <!-- Saeculum Options -->
+          <div v-for="saeculum in sortedSaecula" 
+               :key="saeculum.name"
+               :class="['sidebar-item', { active: selectedView === 'timeline' && selectedSaeculum === saeculum.name }]"
+               @click="selectedView = 'timeline'; selectedSaeculum = saeculum.name">
+            <div>{{ saeculum.name }}</div>
+            <div class="period">{{ saeculum.period }}</div>
+          </div>
+        </nav>
+      </aside>
 
-    <div class="timeline">
-      <template v-for="saeculum in sortedSaecula" :key="saeculum.name">
-        <div class="saeculum-header">
-          <h2>{{ saeculum.name }}</h2>
-          <p>{{ saeculum.period }}</p>
-        </div>
-        
-        <div v-for="event in sortedEvents(saeculum.events)" 
-             :key="event.year + event.description"
-             class="event">
-          <div class="year">{{ event.year }}</div>
-          <div class="content">
-            <div class="description">
-              <a :href="event.url" target="_blank" rel="noopener noreferrer">
-                {{ event.description }}
-              </a>
+      <main class="main-content">
+        <!-- Legend View -->
+        <div v-if="selectedView === 'legend'" class="legend-container">
+          <div v-for="turn in turningTypes" :key="turn.name" 
+               class="legend-item" :style="{ background: turn.lightColor }">
+            <div class="legend-header">
+              <div class="legend-color" :style="{ background: turn.color }"></div>
+              <span>{{ turn.name }}</span>
             </div>
-            <div :class="['category', getCategoryClass(event.category)]">
-              {{ event.category }}
-            </div>
+            <div class="legend-description">{{ turn.description }}</div>
           </div>
         </div>
-      </template>
+
+        <!-- Timeline View -->
+        <div v-else class="timeline">
+          <template v-for="saeculum in filteredSaecula" :key="saeculum.name">
+            <div class="saeculum-header">
+              <h2>{{ saeculum.name }}</h2>
+              <p>{{ saeculum.period }}</p>
+            </div>
+            
+            <div v-for="event in sortedEvents(saeculum.events)" 
+                 :key="event.year + event.description"
+                 class="event">
+              <div class="year">{{ event.year }}</div>
+              <div class="content">
+                <div class="description">
+                  <a :href="event.url" target="_blank" rel="noopener noreferrer">
+                    {{ event.description }}
+                  </a>
+                </div>
+                <div :class="['category', getCategoryClass(event.category)]">
+                  {{ event.category }}
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+      </main>
     </div>
   </div>
 

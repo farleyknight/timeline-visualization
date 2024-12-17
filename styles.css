@@ -1,11 +1,101 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 0 20px;
   background: #f5f5f5;
 }
 
+.app-container {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 30px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-item {
+  padding: 12px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+
+.sidebar-item:hover {
+  background: #f5f5f5;
+}
+
+.sidebar-item.active {
+  background: #e3f2fd;
+  border-color: #90caf9;
+  font-weight: 500;
+}
+
+.sidebar-item .period {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.main-content {
+  min-height: 100vh;
+}
+
+.legend-container {
+  display: grid;
+  gap: 20px;
+}
+
+.legend-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  background: white;
+}
+
+.legend-item:hover {
+  transform: translateY(-2px);
+}
+
+.legend-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.legend-description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Rest of the existing styles remain unchanged */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -79,48 +169,6 @@ body {
 .first-turning {
   background: #FFF3E0;
   color: #F57C00;
-}
-
-.legend {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 15px;
-  margin-bottom: 20px;
-  padding: 15px;
-  background: white;
-  border-radius: 8px;
-}
-
-.legend-item {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px;
-  border-radius: 6px;
-  transition: transform 0.2s;
-}
-
-.legend-item:hover {
-  transform: translateY(-2px);
-}
-
-.legend-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-}
-
-.legend-color {
-  width: 12px;
-  height: 12px;
-  border-radius: 3px;
-}
-
-.legend-description {
-  font-size: 14px;
-  color: #666;
-  line-height: 1.4;
 }
 
 .saeculum-header {

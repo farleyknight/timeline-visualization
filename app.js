@@ -3,6 +3,8 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
+      selectedView: 'legend', // Default view is now the legend
+      selectedSaeculum: 'Millennial Saeculum',
       saecula: [
         {
           name: "Millennial Saeculum",
@@ -60,6 +62,11 @@ createApp({
         const yearB = parseInt(b.period.split('-')[0]);
         return yearB - yearA;
       });
+    },
+    filteredSaecula() {
+      return this.sortedSaecula.filter(saeculum => 
+        saeculum.name === this.selectedSaeculum
+      );
     }
   },
   methods: {
