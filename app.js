@@ -49,14 +49,41 @@ createApp({
       return this.sortedSaecula.filter(saeculum => 
         saeculum.name === this.selectedSaeculum
       );
+    },
+    // New computed property for sorted events
+    currentSaeculumEvents() {
+      const currentSaeculum = this.filteredSaecula[0];
+      if (!currentSaeculum) return [];
+      
+      console.log('Computing sorted events for', currentSaeculum.name);
+      console.log('Events before sort:', [...currentSaeculum.events]);
+      
+      const sortedEvents = [...currentSaeculum.events].sort((a, b) => b.year - a.year);
+      console.log('Events after sort:', sortedEvents);
+      
+      return sortedEvents;
     }
   },
   methods: {
-    sortedEvents(events) {
-      return [...events].sort((a, b) => b.year - a.year);
-    },
     getCategoryClass(category) {
       return category.toLowerCase().split(' ')[0].replace('(', '').replace(')', '') + '-turning';
+    },
+    toggleEvent(event) {
+      console.log('Toggle event called for:', event);
+      
+      // Find the actual event in the original data structure
+      const saeculum = this.saecula.find(s => s.name === this.selectedSaeculum);
+      if (!saeculum) return;
+      
+      const originalEvent = saeculum.events.find(e => 
+        e.year === event.year && e.description === event.description
+      );
+      
+      if (originalEvent) {
+        console.log('Found original event, current expanded state:', originalEvent.isExpanded);
+        originalEvent.isExpanded = !originalEvent.isExpanded;
+        console.log('New expanded state:', originalEvent.isExpanded);
+      }
     },
     async loadAllData() {
       try {
@@ -95,7 +122,11 @@ createApp({
         timelineData.forEach(saeculum => {
           const existing = this.saecula.find(s => s.name === saeculum.name);
           if (existing) {
-            existing.events = saeculum.events;
+            // Initialize isExpanded property for each event
+            existing.events = saeculum.events.map(event => ({
+              ...event,
+              isExpanded: false
+            }));
           }
         });
       } catch (error) {

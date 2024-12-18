@@ -6,265 +6,433 @@
       "description": "Reconstruction Era Begins",
       "year": 1865,
       "category": "First Turning (High)",
-      "url": "https://www.history.com/topics/american-civil-war/reconstruction"
+      "url": "https://www.history.com/topics/american-civil-war/reconstruction",
+      "summary": "The Reconstruction Era followed the Civil War, focusing on rebuilding the South, integrating freed slaves into society, and enforcing civil rights through federal oversight.",
+      "turningReasoning": "This era embodies the First Turning's focus on rebuilding and institutional cohesion, as the nation sought to unify and strengthen after a major crisis."
     },
+    {
+      "description": "Completion of the First Transcontinental Railroad",
+      "year": 1869,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/First_transcontinental_railroad",
+      "summary": "The first transcontinental railroad was completed, connecting the eastern U.S. with the Pacific Coast, significantly boosting trade, travel, and national unity.",
+      "turningReasoning": "This event symbolizes the First Turning’s emphasis on national cohesion and infrastructure development after the Civil War."
+    },    
     {
       "description": "Gilded Age",
       "year": 1870,
       "category": "First Turning (High)",
-      "url": "https://www.britannica.com/event/Gilded-Age"
+      "url": "https://www.britannica.com/event/Gilded-Age",
+      "summary": "The Gilded Age was characterized by rapid industrialization, economic growth, and technological advancements, alongside stark social inequalities and political corruption.",
+      "turningReasoning": "The Gilded Age reflects the First Turning’s emphasis on economic growth and institutional development, though it also exposed the tensions underlying rapid progress."
     },
+    {
+      "description": "Establishment of Yellowstone National Park",
+      "year": 1872,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Yellowstone_National_Park",
+      "summary": "Yellowstone became the first national park in the world, reflecting a growing awareness of conservation and national pride.",
+      "turningReasoning": "This act aligns with the First Turning’s themes of institutional growth and a forward-looking vision for national heritage."
+    },
+    {
+      "description": "The Centennial Exposition in Philadelphia",
+      "year": 1876,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Centennial_Exposition",
+      "summary": "The United States celebrated its 100th anniversary with a world’s fair that showcased industrial and cultural achievements.",
+      "turningReasoning": "This exposition exemplifies the optimism and unity of the First Turning as the nation celebrated progress and innovation."
+    },
+    {
+      "description": "Haymarket Affair Sparks Labor Movement",
+      "year": 1886,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Haymarket_affair",
+      "summary": "The Haymarket Affair in Chicago became a pivotal moment in the labor movement, emphasizing the struggle for workers' rights and the eight-hour workday.",
+      "turningReasoning": "This event marks the societal questioning of economic systems and aligns with the Awakening’s challenge to established norms."
+    },            
     {
       "description": "Missionary Awakening Begins",
       "year": 1886,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Progressive_Era"
+      "url": "https://en.wikipedia.org/wiki/Progressive_Era",
+      "summary": "The Missionary Awakening saw a surge in reform movements focused on morality, education, and social justice, laying the groundwork for the Progressive Era.",
+      "turningReasoning": "This period reflects the Awakening’s challenge to materialism and institutional complacency, as reformers sought to address moral and societal concerns."
     },
+    {
+      "description": "Publication of Looking Backward",
+      "year": 1888,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Looking_Backward",
+      "summary": "Edward Bellamy's utopian novel 'Looking Backward' envisioned a future of social equality and inspired Progressive Era reforms.",
+      "turningReasoning": "The novel reflects the Awakening’s push for reimagining society and exploring alternative visions of justice and equity."
+    },
+    {
+      "description": "Hull House Founded by Jane Addams",
+      "year": 1889,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Hull_House",
+      "summary": "Jane Addams established Hull House in Chicago, a settlement house aimed at addressing urban poverty and social inequalities.",
+      "turningReasoning": "This act of social reform embodies the Awakening’s focus on addressing moral and societal shortcomings."
+    },
+    {
+      "description": "The Panic of 1893 and Economic Turmoil",
+      "year": 1893,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Panic_of_1893",
+      "summary": "The Panic of 1893 was a major economic depression that exposed the vulnerabilities of industrial capitalism and sparked calls for reform.",
+      "turningReasoning": "The economic struggles of this period catalyzed societal introspection, aligning with the Awakening’s emphasis on transformation."
+    },
+    {
+      "description": "Plessy v. Ferguson Decision",
+      "year": 1896,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Plessy_v._Ferguson",
+      "summary": "The Supreme Court decision in Plessy v. Ferguson upheld racial segregation under the 'separate but equal' doctrine.",
+      "turningReasoning": "This event highlights the moral and legal challenges of the Second Turning, as reformers began to confront entrenched social injustices."
+    },
+    {
+      "description": "Spanish-American War",
+      "year": 1898,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+      "summary": "The U.S. emerged as a global power after defeating Spain, acquiring territories such as Puerto Rico, Guam, and the Philippines.",
+      "turningReasoning": "The war signifies the Awakening’s shift in identity, as America began questioning its role on the global stage."
+    },                    
     {
       "description": "Progressive Era Reforms",
       "year": 1900,
       "category": "Second Turning (Awakening)",
-      "url": "https://www.history.com/topics/early-20th-century-us/progressive-era"
+      "url": "https://www.history.com/topics/early-20th-century-us/progressive-era",
+      "summary": "The Progressive Era brought significant reforms aimed at curbing corruption, improving labor conditions, and promoting social welfare and democracy.",
+      "turningReasoning": "These reforms signify the Second Turning’s pursuit of transformation and equity, as activists questioned traditional structures and sought systemic change."
     },
+    {
+      "description": "Upton Sinclair's The Jungle Published",
+      "year": 1906,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/The_Jungle",
+      "summary": "Upton Sinclair's novel exposed the harsh realities of the meatpacking industry, leading to public outrage and legislative reforms.",
+      "turningReasoning": "This work reflects the Awakening’s critique of systemic abuses and the push for moral and institutional change."
+    },    
     {
       "description": "Ford Model T Mass Production Begins",
       "year": 1908,
-      "category": "Second Turning (Awakening)",      
-      "url": "https://en.wikipedia.org/wiki/Ford_Model_T"
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Ford_Model_T",
+      "summary": "The mass production of the Ford Model T revolutionized transportation and industrial manufacturing, making cars affordable for the middle class.",
+      "turningReasoning": "This innovation aligns with the Awakening’s focus on societal transformation, as new technologies redefined accessibility and economic possibilities."
     },
     {
       "description": "NAACP Founded to Promote Civil Rights",
       "year": 1909,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/NAACP"
+      "url": "https://en.wikipedia.org/wiki/NAACP",
+      "summary": "The NAACP was founded to combat racial discrimination and promote equality, playing a pivotal role in the Civil Rights Movement.",
+      "turningReasoning": "This event reflects the Awakening’s emphasis on challenging societal inequities and advocating for transformative justice and inclusivity."
     },
     {
       "description": "Triangle Shirtwaist Factory Fire",
       "year": 1911,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Triangle_Shirtwaist_Factory_fire"
+      "url": "https://en.wikipedia.org/wiki/Triangle_Shirtwaist_Factory_fire",
+      "summary": "The Triangle Shirtwaist Factory fire killed 146 workers, highlighting unsafe labor conditions and sparking major labor reforms.",
+      "turningReasoning": "This tragedy exemplifies the Third Turning’s exposure of institutional shortcomings and the growing push for accountability and reform."
     },
     {
       "description": "Federal Reserve Act Signed into Law",
       "year": 1913,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Federal_Reserve_Act"
+      "url": "https://en.wikipedia.org/wiki/Federal_Reserve_Act",
+      "summary": "The Federal Reserve Act established the Federal Reserve System, centralizing monetary policy to stabilize the economy and prevent financial crises.",
+      "turningReasoning": "This act reflects the Third Turning’s focus on addressing systemic vulnerabilities, though it also marked a growing tension over centralized authority."
     },
     {
       "description": "World War I",
       "year": 1914,
       "category": "Third Turning (Unraveling)",
-      "url": "https://www.history.com/topics/world-war-i/world-war-i-history"
+      "url": "https://www.history.com/topics/world-war-i/world-war-i-history",
+      "summary": "World War I involved global powers in a devastating conflict, reshaping political alliances and economies worldwide.",
+      "turningReasoning": "The war highlights the Third Turning’s unraveling dynamics, as escalating tensions and competing interests led to a breakdown of international stability."
     },
     {
       "description": "Lusitania Sinking Brings U.S. Closer to War",
       "year": 1915,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/RMS_Lusitania"
+      "url": "https://en.wikipedia.org/wiki/RMS_Lusitania",
+      "summary": "The RMS Lusitania, a British ocean liner, was sunk by a German U-boat, killing 1,198 people, including Americans, and escalating tensions that brought the U.S. closer to entering World War I.",
+      "turningReasoning": "This event underscores the unraveling dynamics of the Third Turning, as international conflict and public outrage pushed the U.S. toward greater global engagement."
     },
     {
       "description": "National Park Service Established",
       "year": 1916,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/National_Park_Service"
+      "url": "https://en.wikipedia.org/wiki/National_Park_Service",
+      "summary": "The National Park Service was created to protect and manage national parks and monuments, preserving natural and cultural resources for future generations.",
+      "turningReasoning": "This reflects the Third Turning's focus on institutional reform and preservation amidst growing societal awareness of environmental and historical conservation."
     },
     {
       "description": "Zimmermann Telegram Pushes U.S. Toward War",
       "year": 1917,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Zimmermann_Telegram"
+      "url": "https://en.wikipedia.org/wiki/Zimmermann_Telegram",
+      "summary": "The Zimmermann Telegram was a secret communication from Germany to Mexico, proposing a military alliance against the U.S. It was intercepted and intensified calls for U.S. entry into World War I.",
+      "turningReasoning": "This incident highlights the Third Turning’s international instability, as covert actions and rising hostilities drew the U.S. into the global conflict."
     },
     {
       "description": "United States Enters World War I",
       "year": 1917,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/United_States_in_World_War_I"
+      "url": "https://en.wikipedia.org/wiki/United_States_in_World_War_I",
+      "summary": "The U.S. formally entered World War I, joining the Allies in a significant shift in global military and political dynamics.",
+      "turningReasoning": "This marks a pivotal point in the Third Turning, where domestic and international pressures led to increased U.S. involvement in shaping world affairs."
     },
     {
       "description": "Espionage Act Passed",
       "year": 1917,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Espionage_Act_of_1917"
+      "url": "https://en.wikipedia.org/wiki/Espionage_Act_of_1917",
+      "summary": "The Espionage Act was enacted to prevent interference with military operations and suppress dissent against U.S. participation in World War I.",
+      "turningReasoning": "This act illustrates the tension of the Third Turning, balancing national security with civil liberties during a time of escalating conflict."
     },
     {
       "description": "First Red Scare Sweeps America",
       "year": 1919,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/First_Red_Scare"
+      "url": "https://en.wikipedia.org/wiki/First_Red_Scare",
+      "summary": "The First Red Scare was marked by widespread fear of communism and radical leftist ideas, leading to government crackdowns and social paranoia.",
+      "turningReasoning": "This event reflects the Third Turning’s social and political fragmentation, as ideological divides and fears of subversion fueled societal tension."
     },
     {
       "description": "Treaty of Versailles Ends World War I",
       "year": 1919,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+      "summary": "The Treaty of Versailles formally ended World War I, imposing harsh penalties on Germany and reshaping the geopolitical landscape of Europe.",
+      "turningReasoning": "This treaty embodies the Third Turning’s complexities, as efforts to secure peace sowed the seeds of future instability and conflict."
     },
     {
       "description": "Roaring Twenties Economic Boom",
       "year": 1920,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Roaring_Twenties"
+      "url": "https://en.wikipedia.org/wiki/Roaring_Twenties",
+      "summary": "The Roaring Twenties was a decade of economic prosperity, cultural innovation, and social change, characterized by consumerism and technological advances.",
+      "turningReasoning": "This period highlights the Third Turning’s vibrancy and individualism, as prosperity coexisted with growing societal divides and tensions."
     },
     {
       "description": "Prohibition in the United States",
       "year": 1920,
       "category": "Third Turning (Unraveling)",
-      "url": "https://www.history.com/topics/roaring-twenties/prohibition"
+      "url": "https://www.history.com/topics/roaring-twenties/prohibition",
+      "summary": "Prohibition banned the production and sale of alcoholic beverages, sparking organized crime and widespread resistance.",
+      "turningReasoning": "Prohibition reflects the Third Turning’s societal fragmentation, as government overreach clashed with cultural and individual freedoms."
     },
     {
       "description": "19th Amendment Grants Women the Right to Vote",
       "year": 1920,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution"
+      "url": "https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution",
+      "summary": "The 19th Amendment guaranteed women the right to vote, marking a significant milestone in the women’s suffrage movement.",
+      "turningReasoning": "This amendment underscores the Third Turning’s progress in social equity, as marginalized groups gained a voice in democratic processes."
     },
     {
       "description": "Teapot Dome Scandal Exposes Corruption",
       "year": 1921,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Teapot_Dome_scandal"
+      "url": "https://en.wikipedia.org/wiki/Teapot_Dome_scandal",
+      "summary": "The Teapot Dome Scandal involved government officials accepting bribes for leasing oil reserves, revealing significant corruption in the Harding administration.",
+      "turningReasoning": "This scandal exemplifies the Third Turning’s erosion of trust in institutions, as corruption and exploitation highlighted the weaknesses in governmental oversight."
     },
     {
       "description": "Harlem Renaissance Flourishes",
       "year": 1920,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Harlem_Renaissance"
+      "url": "https://en.wikipedia.org/wiki/Harlem_Renaissance",
+      "summary": "The Harlem Renaissance was a cultural movement that celebrated African American art, music, literature, and identity, influencing broader American culture.",
+      "turningReasoning": "This event reflects the Third Turning's vibrancy and individualism, showcasing the creative expression and challenges to societal norms during a time of change."
     },
     {
       "description": "The Great Migration Peaks",
       "year": 1920,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Great_Migration_(African_American)"
+      "url": "https://en.wikipedia.org/wiki/Great_Migration_(African_American)",
+      "summary": "The Great Migration saw millions of African Americans move from the rural South to urban areas in the North and West, seeking better opportunities and escaping systemic racism.",
+      "turningReasoning": "This demographic shift highlights the Third Turning’s societal tensions, as migration transformed cultural and economic landscapes in both regions."
     },
     {
       "description": "Scopes Trial Challenges Evolution in Schools",
       "year": 1925,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Scopes_Trial"
+      "url": "https://en.wikipedia.org/wiki/Scopes_Trial",
+      "summary": "The Scopes Trial, also known as the 'Monkey Trial,' debated the teaching of evolution in public schools, symbolizing the clash between science and religion.",
+      "turningReasoning": "This trial underscores the Third Turning’s ideological conflicts, as modernist and traditionalist perspectives clashed in a rapidly changing society."
     },
     {
       "description": "Charles Lindbergh Completes First Solo Transatlantic Flight",
       "year": 1927,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh"
+      "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh",
+      "summary": "Charles Lindbergh became the first person to complete a nonstop solo transatlantic flight, achieving global fame and symbolizing technological advancement.",
+      "turningReasoning": "This accomplishment reflects the Third Turning's spirit of innovation and individual achievement, capturing the era’s fascination with progress."
     },
     {
       "description": "Sacco and Vanzetti Executed Amid Controversy",
       "year": 1927,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Sacco_and_Vanzetti"
+      "url": "https://en.wikipedia.org/wiki/Sacco_and_Vanzetti",
+      "summary": "Nicola Sacco and Bartolomeo Vanzetti, Italian immigrants and anarchists, were executed for murder amid widespread belief in their wrongful conviction.",
+      "turningReasoning": "Their execution highlights the Third Turning's social tensions, as fears of radicalism and immigration clashed with ideals of justice and fairness."
     },
     {
       "description": "Stock Market Crash of 1929",
       "year": 1929,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://www.history.com/topics/great-depression/1929-stock-market-crash"
+      "url": "https://www.history.com/topics/great-depression/1929-stock-market-crash",
+      "summary": "The Stock Market Crash of 1929 marked the beginning of the Great Depression, causing economic devastation and widespread unemployment.",
+      "turningReasoning": "This crash signifies the onset of the Fourth Turning’s systemic crisis, as financial instability required profound societal and institutional changes."
     },
     {
       "description": "Smoot-Hawley Tariff Act Passed",
       "year": 1930,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act"
+      "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act",
+      "summary": "The Smoot-Hawley Tariff Act raised import taxes to protect American businesses but worsened the global economic downturn by stifling trade.",
+      "turningReasoning": "This policy highlights the Fourth Turning’s reactionary measures, as attempts to shield domestic markets exacerbated broader economic struggles."
     },
     {
       "description": "Bank Runs Begin Leading to Bank Failures",
       "year": 1931,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Great_Depression_in_the_United_States"
+      "url": "https://en.wikipedia.org/wiki/Great_Depression_in_the_United_States",
+      "summary": "During the Great Depression, widespread bank runs caused the collapse of financial institutions, deepening the economic crisis.",
+      "turningReasoning": "This event underscores the Fourth Turning’s systemic failures, as a lack of trust in institutions destabilized the economic foundation of society."
     },
     {
       "description": "Franklin D. Roosevelt Elected President",
       "year": 1932,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt"
+      "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "summary": "Franklin D. Roosevelt was elected president during the Great Depression, promising bold reforms and a New Deal for the American people.",
+      "turningReasoning": "Roosevelt's election symbolizes the Fourth Turning's demand for transformative leadership to address widespread economic and social crises."
     },
     {
       "description": "Great Depression Peaks",
       "year": 1933,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://www.federalreservehistory.org/essays/great-depression"
+      "url": "https://www.federalreservehistory.org/essays/great-depression",
+      "summary": "In 1933, the Great Depression reached its height, with unemployment nearing 25% and widespread poverty devastating American communities.",
+      "turningReasoning": "This period reflects the Fourth Turning’s critical juncture, where systemic failures required urgent and innovative solutions to prevent societal collapse."
     },
     {
       "description": "New Deal Programs Introduced",
       "year": 1933,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/New_Deal"
+      "url": "https://en.wikipedia.org/wiki/New_Deal",
+      "summary": "The New Deal programs were launched to combat the Great Depression through public works projects, financial reforms, and social welfare initiatives.",
+      "turningReasoning": "The New Deal exemplifies the Fourth Turning’s institutional renewal, as sweeping reforms sought to stabilize and rebuild the nation’s economy and morale."
     },
     {
       "description": "Dust Bowl Devastates Midwest",
       "year": 1934,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Dust_Bowl"
+      "url": "https://en.wikipedia.org/wiki/Dust_Bowl",
+      "summary": "The Dust Bowl was an environmental disaster in the Midwest caused by severe drought and poor agricultural practices, displacing thousands of families.",
+      "turningReasoning": "This event highlights the Fourth Turning’s convergence of natural and societal crises, demanding collective action to address environmental and economic challenges."
     },
     {
       "description": "Social Security Act Signed",
       "year": 1935,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Social_Security_Act"
+      "url": "https://en.wikipedia.org/wiki/Social_Security_Act",
+      "summary": "The Social Security Act established a federal safety net for the elderly, unemployed, and disadvantaged, marking a cornerstone of modern welfare policy.",
+      "turningReasoning": "This act reflects the Fourth Turning’s focus on creating durable institutional solutions to protect vulnerable populations during periods of upheaval."
     },
     {
       "description": "Wagner Act Strengthens Labor Unions",
       "year": 1935,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/National_Labor_Relations_Act_of_1935"
+      "url": "https://en.wikipedia.org/wiki/National_Labor_Relations_Act_of_1935",
+      "summary": "The Wagner Act guaranteed workers’ rights to organize and bargain collectively, empowering labor unions and reshaping industrial relations.",
+      "turningReasoning": "This legislation embodies the Fourth Turning’s institutional recalibration, addressing economic inequalities and stabilizing labor dynamics during a volatile era."
     },
     {
       "description": "Roosevelt Re-Elected During Economic Crisis",
       "year": 1936,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/1936_United_States_presidential_election"
+      "url": "https://en.wikipedia.org/wiki/1936_United_States_presidential_election",
+      "summary": "Franklin D. Roosevelt won re-election in a landslide, affirming public support for his New Deal policies amid ongoing economic challenges.",
+      "turningReasoning": "Roosevelt’s re-election underscores the Fourth Turning’s call for strong leadership, as trust in transformative governance helped navigate the crisis."
     },
     {
       "description": "Germany Invades Poland, World War II Begins",
       "year": 1939,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+      "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland",
+      "summary": "Germany’s invasion of Poland marked the start of World War II, as Britain and France declared war on Germany in response.",
+      "turningReasoning": "This event signifies the escalation of the Fourth Turning’s global crisis, as unresolved tensions from earlier conflicts culminated in another world war."
     },
     {
       "description": "World War II Begins",
       "year": 1939,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://www.history.com/topics/world-war-ii/world-war-ii-history"
+      "url": "https://www.history.com/topics/world-war-ii/world-war-ii-history",
+      "summary": "World War II erupted as Axis powers sought territorial expansion, leading to a global conflict that would reshape international power structures.",
+      "turningReasoning": "The war reflects the Fourth Turning’s transformative scale, where existential threats necessitated coordinated global efforts to preserve stability."
     },
     {
       "description": "Pearl Harbor Attack",
       "year": 1941,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://www.nps.gov/perl/learn/historyculture/attack.htm"
+      "url": "https://www.nps.gov/perl/learn/historyculture/attack.htm",
+      "summary": "On December 7, 1941, the Japanese military launched a surprise attack on Pearl Harbor, killing over 2,400 people and leading the U.S. to enter World War II.",
+      "turningReasoning": "The attack galvanized the U.S. into action, marking a critical moment in the Fourth Turning as existential threats demanded decisive national unity."
     },
     {
       "description": "Executive Order 9066 and Japanese Internment",
       "year": 1942,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Executive_Order_9066"
+      "url": "https://en.wikipedia.org/wiki/Executive_Order_9066",
+      "summary": "Executive Order 9066 authorized the internment of over 120,000 Japanese Americans, stripping them of property and freedom during World War II.",
+      "turningReasoning": "This reflects the Fourth Turning’s societal strain, where fear and security concerns led to controversial measures that disrupted civil liberties."
     },
     {
       "description": "D-Day Invasion of Normandy",
       "year": 1944,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Normandy_landings"
+      "url": "https://en.wikipedia.org/wiki/Normandy_landings",
+      "summary": "The D-Day invasion on June 6, 1944, marked a pivotal Allied assault on Nazi-occupied Europe, significantly advancing the liberation effort in World War II.",
+      "turningReasoning": "D-Day exemplifies the Fourth Turning’s decisive actions, as collective sacrifices and coordination sought to overcome existential threats."
     },
     {
       "description": "Yalta Conference Shapes Postwar World",
       "year": 1945,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Yalta_Conference"
+      "url": "https://en.wikipedia.org/wiki/Yalta_Conference",
+      "summary": "The Yalta Conference brought together Allied leaders to plan the postwar order, addressing issues of territory, governance, and the establishment of the United Nations.",
+      "turningReasoning": "This conference reflects the Fourth Turning’s resolution phase, as efforts to rebuild and reorganize aimed to secure lasting peace."
     },
     {
       "description": "World War II Ends",
       "year": 1945,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://www.archives.gov/research/military/ww2/end"
+      "url": "https://www.archives.gov/research/military/ww2/end",
+      "summary": "World War II concluded with the surrender of Axis powers, ending a global conflict that reshaped international relations and power structures.",
+      "turningReasoning": "The war’s end marks the culmination of the Fourth Turning’s transformative crisis, setting the stage for a new era of global stability."
     },
     {
       "description": "Atomic Bombs Dropped on Hiroshima and Nagasaki",
       "year": 1945,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+      "url": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+      "summary": "The U.S. dropped atomic bombs on Hiroshima and Nagasaki, leading to Japan's surrender and highlighting the devastating potential of nuclear warfare.",
+      "turningReasoning": "This event underscores the Fourth Turning’s climactic resolution, as unprecedented measures brought an end to World War II but introduced new global anxieties."
     },
     {
       "description": "United Nations Established to Promote Peace",
       "year": 1945,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/United_Nations"
+      "url": "https://en.wikipedia.org/wiki/United_Nations",
+      "summary": "The United Nations was founded to foster international cooperation, prevent conflicts, and address global challenges following the devastation of World War II.",
+      "turningReasoning": "The establishment of the UN signifies the Fourth Turning’s institutional renewal, aiming to create structures to sustain peace and address collective challenges."
     }
   ]
 }

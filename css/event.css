@@ -1,0 +1,32 @@
+.event {
+  cursor: pointer;
+}
+
+.event-details {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.event.expanded .event-details {
+  display: block;
+}
+
+.event-summary, .event-reasoning {
+  margin-bottom: 1rem;
+}
+
+.event-summary h4, .event-reasoning h4 {
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+.expand-icon {
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.event.expanded .expand-icon {
+  transform: rotate(180deg);
+}

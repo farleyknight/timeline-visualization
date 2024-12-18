@@ -6,421 +6,561 @@
       "description": "Baby Boom Begins",
       "year": 1946,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Baby_boom#United_States"
+      "url": "https://en.wikipedia.org/wiki/Baby_boom#United_States",
+      "summary": "Following the end of World War II, the United States experienced a massive increase in birth rates, known as the Baby Boom, which significantly shaped the nation's demographics and culture.",
+      "turningReasoning": "The Baby Boom symbolizes the prosperity and stability of the First Turning, as families focused on growth and rebuilding within a period of collective optimism and unity."
     },
     {
       "description": "GI Bill Transforms Education and Housing",
       "year": 1946,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/G.I._Bill"
+      "url": "https://en.wikipedia.org/wiki/G.I._Bill",
+      "summary": "The GI Bill provided veterans with access to education and housing, dramatically expanding the middle class and reshaping American society by facilitating upward mobility.",
+      "turningReasoning": "This reflects the High period's characteristic institution-building and a focus on collective benefits, providing stability and prosperity to a generation returning from war."
     },
     {
       "description": "Truman Doctrine Introduced",
       "year": 1947,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Truman_Doctrine"
+      "url": "https://en.wikipedia.org/wiki/Truman_Doctrine",
+      "summary": "President Harry S. Truman introduced a foreign policy aimed at containing communism, marking the beginning of the Cold War era and setting a precedent for U.S. global leadership.",
+      "turningReasoning": "The Truman Doctrine represents the confidence and assertive leadership of the First Turning, aligning with a broader narrative of rebuilding and institutional strength post-WWII."
     },
     {
       "description": "NATO Established",
       "year": 1949,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/NATO"
-    },            
+      "url": "https://en.wikipedia.org/wiki/NATO",
+      "summary": "The North Atlantic Treaty Organization (NATO) was formed as a collective defense alliance to promote security and counter Soviet influence during the early Cold War period.",
+      "turningReasoning": "The formation of NATO exemplifies the institutional growth and unity of the First Turning, reflecting a collective effort to maintain order and prevent future global conflicts."
+    },           
     {
       "description": "Post-WWII Economic Boom",
       "year": 1950,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Post%E2%80%93World_War_II_economic_expansion"
+      "url": "https://en.wikipedia.org/wiki/Post%E2%80%93World_War_II_economic_expansion",
+      "summary": "A period of unprecedented economic growth occurred in the United States, characterized by rising incomes, suburbanization, and consumerism.",
+      "turningReasoning": "This economic expansion represents the flourishing collective confidence and material prosperity typical of the First Turning, fueled by strong institutions and shared purpose."
     },
     {
       "description": "Korean War Begins",
       "year": 1950,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Korean_War"
+      "url": "https://en.wikipedia.org/wiki/Korean_War",
+      "summary": "The Korean War marked the first major conflict of the Cold War, with the United States leading a coalition to counter communist aggression in Korea.",
+      "turningReasoning": "Although a military conflict, the Korean War aligns with the First Turning's themes of unity and global leadership, demonstrating America's commitment to international stability."
     },
     {
       "description": "Polio Vaccine Developed by Jonas Salk",
       "year": 1952,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Polio_vaccine"
-    },        
+      "url": "https://en.wikipedia.org/wiki/Polio_vaccine",
+      "summary": "The development of the polio vaccine by Jonas Salk was a groundbreaking medical achievement that eradicated a crippling disease, improving public health worldwide.",
+      "turningReasoning": "This innovation reflects the First Turning's emphasis on progress and societal improvement, showcasing institutional success in addressing a major public health crisis."
+    },     
     {
       "description": "Brown v. Board of Education Ruling",
       "year": 1954,
       "category": "First Turning (High)",
-      "url": "https://www.history.com/topics/black-history/brown-v-board-of-education-of-topeka"
+      "url": "https://www.history.com/topics/black-history/brown-v-board-of-education-of-topeka",
+      "summary": "The U.S. Supreme Court's decision in Brown v. Board of Education declared racial segregation in public schools unconstitutional, catalyzing the modern civil rights movement.",
+      "turningReasoning": "This landmark ruling reflects the institutional focus of the First Turning, demonstrating progress in addressing systemic inequalities within a cohesive societal framework."
     },
     {
       "description": "Rosa Parks Sparks Montgomery Bus Boycott",
       "year": 1955,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott"
-    }, 
+      "url": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott",
+      "summary": "Rosa Parks' refusal to give up her seat to a white passenger on a Montgomery bus triggered a year-long boycott, becoming a defining moment in the civil rights movement.",
+      "turningReasoning": "This event highlights the strengthening of collective action and societal values during the First Turning, paving the way for institutional changes promoting equality."
+    },
     {
       "description": "Interstate Highway System Established",
       "year": 1956,
       "category": "First Turning (High)",
-      "url": "https://www.fhwa.dot.gov/interstate/history.cfm"
+      "url": "https://www.fhwa.dot.gov/interstate/history.cfm",
+      "summary": "The establishment of the Interstate Highway System revolutionized transportation in the United States, promoting economic growth and enhancing national connectivity.",
+      "turningReasoning": "This achievement aligns with the First Turning's emphasis on large-scale infrastructure projects that symbolize collective unity and institutional strength, fostering shared prosperity."
     },       
     {
       "description": "Civil Rights Act of 1957 Signed",
       "year": 1957,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957"
-    },    
+      "url": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957",
+      "summary": "The Civil Rights Act of 1957 marked the first major legislative effort to protect voting rights for African Americans since Reconstruction, laying groundwork for future civil rights advancements.",
+      "turningReasoning": "The act reflects the First Turning's focus on institutional reform and addressing societal issues through cohesive and structured efforts, albeit incremental."
+    },  
     {
       "description": "Space Race Begins",
       "year": 1957,
       "category": "First Turning (High)",
-      "url": "https://www.nasa.gov/history/sputnik/index.html"
+      "url": "https://www.nasa.gov/history/sputnik/index.html",
+      "summary": "The launch of Sputnik by the Soviet Union initiated the Space Race, spurring technological innovation and strategic competition between global superpowers.",
+      "turningReasoning": "This event exemplifies the First Turning's optimism and focus on achievement through institutional capabilities, marking a period of ambitious exploration and progress."
     },
     {
       "description": "NASA Established",
       "year": 1958,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/NASA"
+      "url": "https://en.wikipedia.org/wiki/NASA",
+      "summary": "NASA was founded to spearhead America's efforts in space exploration, showcasing technological ambition and national pride during the Cold War era.",
+      "turningReasoning": "The creation of NASA aligns with the First Turning's themes of institutional growth and innovation, serving as a unifying force for national achievement."
     },
     {
       "description": "Alaska and Hawaii Become U.S. States",
       "year": 1959,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Admission_to_the_Union"
+      "url": "https://en.wikipedia.org/wiki/Admission_to_the_Union",
+      "summary": "The admission of Alaska and Hawaii as the 49th and 50th states represented the expansion and consolidation of the United States during a period of national optimism.",
+      "turningReasoning": "This event reflects the First Turning's collective identity and growth, as the nation focused on unity and extending its institutional framework."
     },
     {
       "description": "John F. Kennedy Elected President",
       "year": 1960,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+      "url": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+      "summary": "John F. Kennedy's election as the 35th President of the United States symbolized a new era of youthful leadership and optimism in American politics.",
+      "turningReasoning": "Kennedy's election aligns with the First Turning's focus on charismatic leadership and a shared vision for progress, reflecting the era's institutional confidence."
     },
     {
       "description": "Cuban Missile Crisis",
       "year": 1962,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+      "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis",
+      "summary": "The Cuban Missile Crisis was a tense 13-day confrontation between the United States and the Soviet Union over the placement of nuclear missiles in Cuba, bringing the world to the brink of nuclear war.",
+      "turningReasoning": "Despite its tension, the crisis showcased First Turning qualities of strong institutional responses and leadership, culminating in a peaceful resolution that reinforced global order."
     },
     {
       "description": "March on Washington for Jobs and Freedom",
       "year": 1963,
       "category": "First Turning (High)",
-      "url": "https://en.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom"
+      "url": "https://en.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom",
+      "summary": "The March on Washington for Jobs and Freedom was a pivotal event in the Civil Rights Movement, featuring Martin Luther King Jr.'s iconic 'I Have a Dream' speech and advocating for economic and racial equality.",
+      "turningReasoning": "This event embodies the First Turning's focus on institutional progress and societal cohesion by addressing systemic inequalities within a framework of collective action."
     },                    
     {
       "description": "Civil Rights Act Passed",
       "year": 1964,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964"
-    },    
+      "url": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964",
+      "summary": "The Civil Rights Act of 1964 was a landmark legislation outlawing discrimination based on race, color, religion, sex, or national origin, marking a major victory for the Civil Rights Movement.",
+      "turningReasoning": "This act represents the transformative energy of the Second Turning, challenging societal norms and demanding a reevaluation of deeply ingrained inequities." 
+    },  
     {
       "description": "Anti-Vietnam War Protests",
       "year": 1964,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Opposition_to_United_States_involvement_in_the_Vietnam_War"
+      "url": "https://en.wikipedia.org/wiki/Opposition_to_United_States_involvement_in_the_Vietnam_War",
+      "summary": "The Anti-Vietnam War protests began as widespread opposition to U.S. military involvement in Vietnam, becoming a hallmark of the countercultural and activist movements of the 1960s.",
+      "turningReasoning": "These protests reflect the Second Turning's characteristic rejection of authority and awakening of individual and collective conscience, questioning institutional decisions and moral direction."
     },
     {
       "description": "Civil Rights Movement Peak",
       "year": 1965,
       "category": "Second Turning (Awakening)",
-      "url": "https://www.nps.gov/subjects/civilrights/modern-civil-rights-movement.htm"
+      "url": "https://www.nps.gov/subjects/civilrights/modern-civil-rights-movement.htm",
+      "summary": "The Civil Rights Movement reached its apex in 1965 with events such as the Selma to Montgomery marches, highlighting the struggle for voting rights and social justice.",
+      "turningReasoning": "The movement's peak reflects the Second Turning's drive for societal transformation and challenge to longstanding inequities, epitomizing a generational awakening."
     },
     {
       "description": "Anti-Vietnam War Protests Intensify",
       "year": 1965,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Opposition_to_United_States_involvement_in_the_Vietnam_War"
+      "url": "https://en.wikipedia.org/wiki/Opposition_to_United_States_involvement_in_the_Vietnam_War",
+      "summary": "By 1965, Anti-Vietnam War protests had intensified, with growing public dissent and iconic demonstrations shaping the political and cultural discourse of the era.",
+      "turningReasoning": "The escalating protests symbolize the Awakening's focus on moral inquiry and challenging the status quo, spurred by disillusionment with institutional authority."
     },
     {
       "description": "Assassination of Malcolm X",
       "year": 1965,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Assassination_of_Malcolm_X"
-    },        
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Malcolm_X",
+      "summary": "Malcolm X, a prominent civil rights leader advocating for Black empowerment and justice, was assassinated in 1965, marking a profound moment in the struggle for equality.",
+      "turningReasoning": "The assassination of Malcolm X highlights the Second Turning's tensions and the societal push for radical change, as voices for justice and transformation often faced violent opposition."
+    },     
     {
       "description": "Summer of Love",
       "year": 1967,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Summer_of_Love"
+      "url": "https://en.wikipedia.org/wiki/Summer_of_Love",
+      "summary": "The Summer of Love in 1967 saw a convergence of countercultural movements in San Francisco, emphasizing peace, love, and rejection of mainstream societal norms.",
+      "turningReasoning": "This event epitomizes the Awakening's spirit of cultural and spiritual exploration, as a generation questioned established traditions and sought new values."
     },
     {
       "description": "Martin Luther King Jr. Assassinated",
       "year": 1968,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr."
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr.",
+      "summary": "The assassination of Martin Luther King Jr., a leading figure of the Civil Rights Movement, sparked widespread grief and unrest, intensifying the demand for racial justice.",
+      "turningReasoning": "King's assassination reflects the profound societal struggles of the Second Turning, where calls for equity and transformative change clashed with entrenched resistance."
     },
     {
       "description": "Robert F. Kennedy Assassinated",
       "year": 1968,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Assassination_of_Robert_F._Kennedy"
-    },        
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Robert_F._Kennedy",
+      "summary": "Robert F. Kennedy, a champion of civil rights and social justice, was assassinated during his presidential campaign, symbolizing the turmoil and loss of hope of the 1960s.",
+      "turningReasoning": "This event underscores the Second Turning's volatility and the generational conflict over the vision and direction of the nation's future."
+    },       
     {
       "description": "Woodstock Music Festival",
       "year": 1969,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Woodstock"
+      "url": "https://en.wikipedia.org/wiki/Woodstock",
+      "summary": "Woodstock became an iconic symbol of the 1960s counterculture, drawing hundreds of thousands for a festival of music, peace, and social revolution.",
+      "turningReasoning": "The festival embodies the Awakening's cultural vibrancy and the generational desire to redefine society's values and priorities."
     },
     {
       "description": "Native American Occupation of Alcatraz",
       "year": 1969,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Occupation_of_Alcatraz"
-    },    
+      "url": "https://en.wikipedia.org/wiki/Occupation_of_Alcatraz",
+      "summary": "The 19-month occupation of Alcatraz Island by Native American activists brought attention to Indigenous rights and the federal government's failure to honor treaties.",
+      "turningReasoning": "This occupation reflects the Awakening's spirit of protest and advocacy for marginalized groups, seeking to rectify historical injustices."
+    },  
     {
       "description": "Apollo 11 Moon Landing",
       "year": 1969,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Apollo_11"
-    }, 
+      "url": "https://en.wikipedia.org/wiki/Apollo_11",
+      "summary": "Apollo 11 marked humanity's first landing on the moon, a monumental achievement that inspired awe and reflected the pinnacle of technological ambition.",
+      "turningReasoning": "While a symbol of institutional prowess, the moon landing also resonates with the Awakening's quest for exploration and the expansion of human potential."
+    },
     {
       "description": "Kent State Shootings",
       "year": 1970,
-      "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Kent_State_shootings"
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Kent_State_shootings",
+      "summary": "The Kent State Shootings occurred when National Guard troops fired on unarmed student protesters, killing four and injuring nine during a demonstration against the U.S. invasion of Cambodia.",
+      "turningReasoning": "This event highlights the tensions and generational conflicts characteristic of the Second Turning, as it reflects the growing distrust between authority figures and a socially conscious youth."
     },
     {
       "description": "Earth Day Inaugurated",
       "year": 1970,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Earth_Day"
+      "url": "https://en.wikipedia.org/wiki/Earth_Day",
+      "summary": "The first Earth Day was celebrated on April 22, 1970, mobilizing millions of Americans to advocate for environmental protection and awareness.",
+      "turningReasoning": "Earth Day signifies the Awakening’s emphasis on societal reflection and activism, challenging industrial norms and prioritizing ecological values."
     },
     {
       "description": "First Gay Pride Parades Held",
       "year": 1970,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Gay_pride"
+      "url": "https://en.wikipedia.org/wiki/Gay_pride",
+      "summary": "The first Gay Pride parades were held in several U.S. cities, marking the anniversary of the Stonewall Riots and celebrating LGBTQ+ identity and rights.",
+      "turningReasoning": "This event reflects the Awakening's spirit of social liberation and the challenge to societal norms, advocating for equality and personal freedom."
     },
     {
       "description": "Fourth Great Awakening (Evangelical Movement Rises)",
       "year": 1970,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Fourth_Great_Awakening"
-    },    
+      "url": "https://en.wikipedia.org/wiki/Fourth_Great_Awakening",
+      "summary": "The Fourth Great Awakening began as a resurgence of evangelical Christianity in the U.S., emphasizing personal faith, family values, and social conservatism.",
+      "turningReasoning": "This movement reflects the introspection and cultural shifts of the Awakening, as religious communities sought to redefine moral and spiritual foundations."
+    },  
     {
       "description": "Environmental Protection Agency (EPA) Established",
       "year": 1970,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency"
-    },        
+      "url": "https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency",
+      "summary": "The EPA was established to address environmental degradation and enforce regulations aimed at protecting air, water, and land resources.",
+      "turningReasoning": "The creation of the EPA represents the Awakening's institutional response to environmental activism, reflecting a collective reevaluation of human impact on nature."
+    },       
     {
       "description": "Title IX Passed (Gender Equality in Education)",
       "year": 1972,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Title_IX"
-    },        
+      "url": "https://en.wikipedia.org/wiki/Title_IX",
+      "summary": "Title IX of the Education Amendments was signed into law, prohibiting gender-based discrimination in federally funded educational programs.",
+      "turningReasoning": "This legislation aligns with the Awakening's focus on societal equality, addressing systemic inequities and expanding opportunities for women in education."
+    },      
     {
       "description": "Watergate Scandal",
       "year": 1972,
-      "category": "Third Turning (Unraveling)",
-      "url": "https://www.archives.gov/research/investigations/watergate"
+      "category": "Second Turning (Awakening)",
+      "url": "https://www.archives.gov/research/investigations/watergate",
+      "summary": "The Watergate Scandal, involving political espionage and cover-ups by the Nixon administration, ultimately led to widespread distrust in government.",
+      "turningReasoning": "This scandal underscores the Awakening's challenge to institutional authority and the public's growing demand for accountability and transparency."
     },
     {
       "description": "Roe v. Wade Legalizes Abortion",
       "year": 1973,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Roe_v._Wade"
-    },    
+      "url": "https://en.wikipedia.org/wiki/Roe_v._Wade",
+      "summary": "The Supreme Court's decision in Roe v. Wade affirmed the constitutional right to abortion, transforming the landscape of reproductive rights in America.",
+      "turningReasoning": "This landmark case reflects the Awakening's focus on individual autonomy and the societal reevaluation of deeply personal and divisive issues."
+    },  
     {
       "description": "End of U.S. Involvement in Vietnam",
       "year": 1973,
       "category": "Second Turning (Awakening)",
-      "url": "https://en.wikipedia.org/wiki/Vietnam_War"
+      "url": "https://en.wikipedia.org/wiki/Vietnam_War",
+      "summary": "The United States formally ended its involvement in the Vietnam War with the signing of the Paris Peace Accords, marking a turning point in American foreign policy.",
+      "turningReasoning": "The withdrawal signifies the Awakening's disillusionment with institutional power and a generational shift towards questioning the rationale for military engagements."
     },
     {
       "description": "Energy Crisis Begins",
       "year": 1973,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/1973_oil_crisis"
+      "url": "https://en.wikipedia.org/wiki/1973_oil_crisis",
+      "summary": "The Energy Crisis of 1973 began with an OPEC oil embargo, leading to widespread fuel shortages and economic disruption in the United States and globally.",
+      "turningReasoning": "The Energy Crisis reflects the Third Turning's uncertainty and unraveling of trust in institutional stability, highlighting vulnerabilities in global interdependence and resource management."
     },
     {
       "description": "Resignation of President Nixon",
       "year": 1974,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Resignation_of_Richard_Nixon"
+      "url": "https://en.wikipedia.org/wiki/Resignation_of_Richard_Nixon",
+      "summary": "President Richard Nixon resigned following the Watergate Scandal, becoming the first U.S. president to do so, amid declining public trust in government.",
+      "turningReasoning": "Nixon's resignation underscores the unraveling characteristic of the Third Turning, marking a period of institutional distrust and political instability."
     },
     {
       "description": "Jonestown Massacre",
       "year": 1978,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Jonestown"
-    },    
+      "url": "https://en.wikipedia.org/wiki/Jonestown",
+      "summary": "The Jonestown Massacre resulted in the deaths of over 900 people in a mass murder-suicide orchestrated by cult leader Jim Jones in Guyana.",
+      "turningReasoning": "This tragic event epitomizes the alienation and disillusionment of the Third Turning, showcasing the extreme outcomes of societal fragmentation and charismatic leadership."
+    },
     {
       "description": "Three Mile Island Nuclear Accident",
       "year": 1979,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Three_Mile_Island_accident"
-    },                
+      "url": "https://en.wikipedia.org/wiki/Three_Mile_Island_accident",
+      "summary": "The Three Mile Island nuclear accident was the most serious accident in U.S. commercial nuclear power plant history, causing widespread public fear and regulatory scrutiny.",
+      "turningReasoning": "The accident represents the Third Turning's erosion of confidence in technological progress and institutional oversight, highlighting vulnerabilities in critical infrastructure."
+    },               
     {
       "description": "Reaganomics Introduced",
       "year": 1981,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Reaganomics"
+      "url": "https://en.wikipedia.org/wiki/Reaganomics",
+      "summary": "Reaganomics, the economic policies of President Ronald Reagan, emphasized tax cuts, deregulation, and reduced government spending to stimulate growth.",
+      "turningReasoning": "Reaganomics reflects the Third Turning's focus on individualism and market-driven solutions, often at the expense of collective institutions and societal cohesion."
     },
     {
       "description": "Personal Computer Revolution",
       "year": 1981,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/History_of_personal_computers"
+      "url": "https://en.wikipedia.org/wiki/History_of_personal_computers",
+      "summary": "The personal computer revolution of the 1980s made computing accessible to households and small businesses, transforming work, communication, and education.",
+      "turningReasoning": "This technological shift illustrates the decentralization and individual empowerment typical of the Third Turning, as innovation disrupted traditional systems."
     },
     {
       "description": "AIDS Crisis Publicly Acknowledged",
       "year": 1981,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_the_United_States"
+      "url": "https://en.wikipedia.org/wiki/HIV/AIDS_in_the_United_States",
+      "summary": "The AIDS crisis emerged as a devastating public health epidemic, disproportionately affecting marginalized communities and highlighting social inequities.",
+      "turningReasoning": "The AIDS crisis reflects the societal fragmentation and challenges to institutional response characteristic of the Third Turning, exposing deep cultural and systemic tensions."
     },
     {
       "description": "Launch of MTV and Cultural Shifts in Music",
       "year": 1981,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/MTV"
+      "url": "https://en.wikipedia.org/wiki/MTV",
+      "summary": "The launch of MTV revolutionized the music industry, popularizing the music video format and influencing youth culture on a global scale.",
+      "turningReasoning": "MTV symbolizes the cultural fragmentation and individual expression of the Third Turning, where mass media reshaped generational identities."
     },
     {
       "description": "War on Drugs Initiated",
       "year": 1982,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/War_on_drugs"
+      "url": "https://en.wikipedia.org/wiki/War_on_drugs",
+      "summary": "The War on Drugs was launched as a campaign against illegal drug use, production, and trafficking, leading to widespread incarceration and debates on its social impact.",
+      "turningReasoning": "This policy reflects the Third Turning’s characteristic focus on control and enforcement amidst societal fragmentation, while also fueling debates on justice and inequality."
     },
     {
       "description": "Challenger Disaster",
       "year": 1986,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster"
+      "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster",
+      "summary": "The Challenger space shuttle disaster resulted in the tragic loss of seven astronauts, including a teacher, sparking national grief and scrutiny of NASA's operations.",
+      "turningReasoning": "This event exemplifies the Third Turning's erosion of institutional trust and the consequences of systemic pressures and oversight failures in pursuit of ambitious goals."
     },
     {
       "description": "Stock Market Crash (Black Monday)",
       "year": 1987,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)"
+      "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)",
+      "summary": "The stock market crash on Black Monday, October 19, 1987, saw a record one-day percentage drop in the Dow Jones, shaking global financial confidence.",
+      "turningReasoning": "This financial upheaval highlights the Third Turning's volatility and the increasing fragility of economic systems during a period of declining institutional stability."
     },
     {
       "description": "Iran-Contra Affair Exposed",
       "year": 1986,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair"
+      "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+      "summary": "The Iran-Contra affair revealed secret arms sales to Iran and illegal funding of Contra rebels in Nicaragua, leading to a major political scandal in the Reagan administration.",
+      "turningReasoning": "This scandal underscores the Third Turning's unraveling of trust in government, as covert actions and ethical breaches eroded public confidence in leadership."
     },
     {
       "description": "Rise of Yuppie Culture",
       "year": 1980,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Yuppie"
+      "url": "https://en.wikipedia.org/wiki/Yuppie",
+      "summary": "Yuppie culture emerged in the 1980s, epitomizing a generation of young urban professionals focused on wealth, status, and consumerism.",
+      "turningReasoning": "This cultural shift highlights the Third Turning's emphasis on individualism and material success, often at the expense of collective values and societal cohesion."
     },
     {
       "description": "Fall of the Berlin Wall Signals End of Cold War",
       "year": 1989,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
-    },    
+      "url": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall",
+      "summary": "The fall of the Berlin Wall symbolized the collapse of communist regimes in Eastern Europe, marking the end of the Cold War and a new geopolitical order.",
+      "turningReasoning": "This event reflects the culmination of the Third Turning's global realignments and the decline of ideologically polarized institutions, paving the way for a transitional period."
+    },  
     {
       "description": "Rise of Internet and Tech Boom",
       "year": 1990,
       "category": "Third Turning (Unraveling)",
-      "url": "https://www.internetsociety.org/internet/history-internet/"
+      "url": "https://www.internetsociety.org/internet/history-internet/",
+      "summary": "The 1990s saw the rise of the internet, sparking a tech boom that revolutionized communication, commerce, and global connectivity.",
+      "turningReasoning": "This technological revolution aligns with the Third Turning's theme of decentralization and disruption, transforming societal structures and individual interactions."
     },
     {
       "description": "Operation Desert Storm (Gulf War)",
       "year": 1991,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Gulf_War"
+      "url": "https://en.wikipedia.org/wiki/Gulf_War",
+      "summary": "Operation Desert Storm was a U.S.-led coalition military campaign to liberate Kuwait from Iraqi occupation, marking a significant moment in modern warfare.",
+      "turningReasoning": "This conflict represents the Third Turning's geopolitical instability and reliance on military power to manage emerging global tensions."
     },
     {
       "description": "End of the Cold War",
       "year": 1991,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/End_of_the_Cold_War"
+      "url": "https://en.wikipedia.org/wiki/End_of_the_Cold_War",
+      "summary": "The dissolution of the Soviet Union in 1991 marked the official end of the Cold War, reshaping international relations and power dynamics.",
+      "turningReasoning": "This event signifies the unraveling of a long-standing global order, characteristic of the Third Turning’s transitional and destabilizing nature."
     },
     {
       "description": "Rodney King Beating and Los Angeles Riots",
       "year": 1992,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots"
+      "url": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots",
+      "summary": "The beating of Rodney King by police officers and their subsequent acquittal led to the 1992 Los Angeles Riots, characterized by widespread protests and civil unrest.",
+      "turningReasoning": "This event illustrates the societal tensions and fractures of the Third Turning, as issues of racial inequality and justice challenged institutional trust."
     },
     {
       "description": "World Trade Center Bombing",
       "year": 1993,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/1993_World_Trade_Center_bombing"
+      "url": "https://en.wikipedia.org/wiki/1993_World_Trade_Center_bombing",
+      "summary": "The 1993 bombing of the World Trade Center was a terrorist attack that killed six people and injured over a thousand, marking a precursor to later acts of terror.",
+      "turningReasoning": "This event signals the growing global instability and threats to institutional security characteristic of the Third Turning's unraveling dynamics."
     },
     {
       "description": "NAFTA Agreement Signed",
       "year": 1994,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/North_American_Free_Trade_Agreement"
+      "url": "https://en.wikipedia.org/wiki/North_American_Free_Trade_Agreement",
+      "summary": "The North American Free Trade Agreement (NAFTA) was signed to promote trade between the U.S., Canada, and Mexico, transforming economic relationships across borders.",
+      "turningReasoning": "NAFTA reflects the Third Turning’s focus on globalization and market-driven solutions, often fueling debates about inequality and national sovereignty."
     },
     {
       "description": "O.J. Simpson Trial Captivates America",
       "year": 1995,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/O._J._Simpson_murder_case"
+      "url": "https://en.wikipedia.org/wiki/O._J._Simpson_murder_case",
+      "summary": "The O.J. Simpson trial, dubbed the 'Trial of the Century,' captivated America with its racial and celebrity dynamics, culminating in Simpson’s acquittal.",
+      "turningReasoning": "This event exemplifies the Third Turning's cultural fragmentation, as media sensationalism and social divides highlighted the complexities of justice and race."
     },
     {
       "description": "Oklahoma City Bombing",
       "year": 1995,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Oklahoma_City_bombing"
+      "url": "https://en.wikipedia.org/wiki/Oklahoma_City_bombing",
+      "summary": "The Oklahoma City bombing was a domestic terrorist attack that killed 168 people, the deadliest of its kind in U.S. history at the time.",
+      "turningReasoning": "This act of domestic terrorism underscores the Third Turning’s themes of distrust in institutions and growing societal fragmentation."
     },
     {
       "description": "Internet and World Wide Web Go Mainstream",
       "year": 1995,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+      "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web",
+      "summary": "By the mid-1990s, the Internet and the World Wide Web became accessible to the public, revolutionizing communication and information sharing.",
+      "turningReasoning": "This technological leap reflects the Third Turning’s hallmark of innovation-driven disruption, decentralizing power and reshaping societal norms."
     },
     {
       "description": "Clinton Impeachment Trial",
       "year": 1998,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Impeachment_of_Bill_Clinton"
+      "url": "https://en.wikipedia.org/wiki/Impeachment_of_Bill_Clinton",
+      "summary": "President Bill Clinton faced impeachment over charges of perjury and obstruction of justice related to his extramarital affair, polarizing the nation.",
+      "turningReasoning": "The impeachment trial reflects the Third Turning's political divisions and eroding trust in leadership, as personal scandals overshadowed institutional focus."
     },
     {
       "description": "Columbine High School Shooting",
       "year": 1999,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Columbine_High_School_massacre"
+      "url": "https://en.wikipedia.org/wiki/Columbine_High_School_massacre",
+      "summary": "The Columbine High School massacre, one of the deadliest school shootings in U.S. history, sparked national debates on gun control and youth violence.",
+      "turningReasoning": "This tragic event illustrates the unraveling societal cohesion of the Third Turning, as systemic issues of violence and alienation came to the forefront."
     },
     {
       "description": "Y2K Preparations Reflect Global Tech Anxiety",
       "year": 1999,
       "category": "Third Turning (Unraveling)",
-      "url": "https://en.wikipedia.org/wiki/Year_2000_problem"
+      "url": "https://en.wikipedia.org/wiki/Year_2000_problem",
+      "summary": "The Y2K crisis spurred global concern over computer systems failing to transition to the year 2000, leading to widespread preparations and spending.",
+      "turningReasoning": "This event reflects the Third Turning’s technological anxiety and reliance, highlighting vulnerabilities in critical systems amidst societal unease."
     },
     {
       "description": "Dot-Com Bubble Burst",
       "year": 2000,
       "category": "Third Turning (Unraveling)",
-      "url": "https://www.investopedia.com/terms/d/dotcom-bubble.asp"
+      "url": "https://www.investopedia.com/terms/d/dotcom-bubble.asp",
+      "summary": "The collapse of the dot-com bubble saw a massive devaluation of Internet-based companies, leading to significant economic losses and market corrections.",
+      "turningReasoning": "This financial crash epitomizes the speculative volatility and systemic weaknesses characteristic of the Third Turning’s unraveling period."
     },
     {
       "description": "9/11 Terrorist Attacks",
       "year": 2001,
       "category": "Third Turning (Unraveling)",
-      "url": "https://www.911memorial.org/learn/resources/digital-exhibitions"
+      "url": "https://www.911memorial.org/learn/resources/digital-exhibitions",
+      "summary": "The September 11 attacks orchestrated by Al-Qaeda targeted the World Trade Center and the Pentagon, claiming nearly 3,000 lives and profoundly impacting U.S. foreign and domestic policy.",
+      "turningReasoning": "This event underscores the culmination of Third Turning vulnerabilities, leading to a global focus on security and a reevaluation of international relations."
     },
     {
       "description": "Global Financial Crisis",
       "year": 2008,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath"
+      "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+      "summary": "The 2008 Global Financial Crisis triggered widespread economic turmoil, with the collapse of major financial institutions and severe impacts on global markets and unemployment.",
+      "turningReasoning": "This crisis marked the beginning of the Fourth Turning, as it revealed systemic economic flaws and catalyzed a push for significant institutional and societal reforms."
     },
     {
       "description": "COVID-19 Pandemic",
       "year": 2020,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+      "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
+      "summary": "The COVID-19 pandemic, caused by the novel coronavirus, led to widespread global disruption, claiming millions of lives and fundamentally altering daily life and economies.",
+      "turningReasoning": "The pandemic intensified the Fourth Turning's focus on crisis management and resilience, exposing weaknesses in healthcare systems and societal preparedness."
     },
     {
       "description": "Black Lives Matter Protests",
       "year": 2020,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/Black_Lives_Matter"
+      "url": "https://en.wikipedia.org/wiki/Black_Lives_Matter",
+      "summary": "Widespread protests erupted across the United States and globally following the death of George Floyd, marking one of the largest civil rights movements in history and highlighting ongoing racial injustice issues.",
+      "turningReasoning": "This event exemplifies Fourth Turning characteristics by revealing deep societal tensions and triggering institutional transformation. The scale and intensity of the protests, combined with their intersection with the COVID-19 crisis, represents the kind of catalyzing moment typical of Crisis periods."
     },
     {
       "description": "Capitol Riot",
       "year": 2021,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack"
+      "url": "https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack",
+      "summary": "The Capitol Riot on January 6, 2021, saw a mob of protestors storm the U.S. Capitol, disrupting the certification of the 2020 Presidential election and sparking widespread condemnation.",
+      "turningReasoning": "This event epitomizes the institutional and societal tensions of the Fourth Turning, as divisions and challenges to democratic norms reached a critical breaking point."
     },
     {
       "description": "Global Climate Protests (Greta Thunberg Movement)",
       "year": 2019,
       "category": "Fourth Turning (Crisis)",
-      "url": "https://en.wikipedia.org/wiki/School_strike_for_climate"
+      "url": "https://en.wikipedia.org/wiki/School_strike_for_climate",
+      "summary": "The global climate protests, inspired by activist Greta Thunberg, mobilized millions to demand urgent action on climate change, emphasizing intergenerational responsibility.",
+      "turningReasoning": "This movement highlights the Fourth Turning’s focus on addressing existential crises and forging collective action to confront global challenges."
     }
   ]
 }
