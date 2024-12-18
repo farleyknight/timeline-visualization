@@ -24,6 +24,11 @@ createApp({
           events: []
         },
         {
+          name: "Revolutionary Saeculum",
+          period: "1704-1794",
+          events: []
+        },        
+        {
           name: "New World Saeculum",
           period: "1594-1704",
           events: []
@@ -57,9 +62,9 @@ createApp({
       try {
         // Load configuration files
         const [introResponse, turningsResponse, booksResponse] = await Promise.all([
-          fetch('config/introduction.json'),
-          fetch('config/turnings.json'),
-          fetch('config/books.json')
+          fetch('data/introduction.json'),
+          fetch('data/turnings.json'),
+          fetch('data/books.json')
         ]);
         
         const introData = await introResponse.json();
@@ -69,13 +74,14 @@ createApp({
         this.introductionContent = introData;
         this.turningTypes = turningsData.turningTypes;
         this.books = booksData.books;
-
+    
         // Load timeline data
         const timelineFiles = [
-          'millennial-saeculum.json', 
-          'great-power-saeculum.json', 
-          'civil-war-saeculum.json',
-          'new-world-saeculum.json'
+          'data/saecula/millennial-saeculum.json', 
+          'data/saecula/great-power-saeculum.json', 
+          'data/saecula/civil-war-saeculum.json',
+          'data/saecula/revolutionary-saeculum.json',          
+          'data/saecula/new-world-saeculum.json'
         ];
         
         const timelineResponses = await Promise.all(
