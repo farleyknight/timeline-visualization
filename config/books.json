@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "title": "Generations: The History of America's Future, 1584 to 2069",
+      "year": "1991",
+      "authors": "William Strauss & Neil Howe",
+      "url": "https://www.amazon.com/Generations-History-Americas-Future-1584/dp/0688119123",
+      "image": "images/Generations.jpg"
+    },
+    {
+      "title": "The Fourth Turning: An American Prophecy",
+      "year": "1997",
+      "authors": "William Strauss & Neil Howe",
+      "url": "https://www.amazon.com/Fourth-Turning-American-Prophecy-Rendezvous/dp/0767900464",
+      "image": "images/Fourth_Turning_American_Prophecy.jpg"
+    },
+    {
+      "title": "The Fourth Turning Is Here: What the Seasons of History Tell Us About How and When This Crisis Will End",
+      "year": "2023",
+      "authors": "Neil Howe",
+      "url": "https://www.amazon.com/Fourth-Turning-Here-Seasons-History/dp/1982173734",
+      "image": "images/The_Fourth_Turning_is_Here.jpg"
+    }
+  ]
+}

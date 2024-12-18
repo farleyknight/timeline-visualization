@@ -189,3 +189,52 @@ body {
   color: #666;
   font-size: 14px;
 }
+
+/* ... (existing styles remain the same until books section) ... */
+
+.books-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.book-item {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.book-item:hover {
+  transform: translateY(-2px);
+}
+
+.book-item h3 {
+  margin: 0 0 12px 0;
+  font-size: 20px;
+}
+
+.book-item a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dotted #666;
+}
+
+.book-item a:hover {
+  border-bottom: 1px solid #333;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #666;
+  font-size: 14px;
+}
+
+.book-authors {
+  font-weight: 500;
+}
+
+/* ... (rest of existing styles remain the same) ... */

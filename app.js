@@ -3,8 +3,10 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      selectedView: 'legend', // Default view is now the legend
+      selectedView: 'introduction', 
       selectedSaeculum: 'Millennial Saeculum',
+      introductionContent: null,
+      books: [],
       saecula: [
         {
           name: "Millennial Saeculum",
@@ -27,32 +29,7 @@ createApp({
           events: []
         }
       ],
-      turningTypes: [
-        {
-          name: "Fourth Turning (Crisis)",
-          color: "#FFE0E0",
-          lightColor: "rgba(255, 224, 224, 0.1)",
-          description: "A decisive era of upheaval when institutional life is destroyed and rebuilt in response to a perceived threat to the nation's survival."
-        },
-        {
-          name: "Third Turning (Unraveling)",
-          color: "#E1F5FE",
-          lightColor: "rgba(225, 245, 254, 0.1)",
-          description: "A downcast era of strengthening individualism and weakening institutions, when the old civic order decays and the new values regime implants."
-        },
-        {
-          name: "Second Turning (Awakening)",
-          color: "#E8F5E9",
-          lightColor: "rgba(232, 245, 233, 0.1)",
-          description: "A passionate era of spiritual upheaval, when the civic order comes under attack from a new values regime."
-        },
-        {
-          name: "First Turning (High)",
-          color: "#FFF3E0",
-          lightColor: "rgba(255, 243, 224, 0.1)",
-          description: "An upbeat era of strengthening institutions and weakening individualism, when a new civic order implants and the old values regime decays."
-        }
-      ]
+      turningTypes: []
     }
   },
   computed: {
@@ -76,30 +53,51 @@ createApp({
     getCategoryClass(category) {
       return category.toLowerCase().split(' ')[0].replace('(', '').replace(')', '') + '-turning';
     },
-    async loadTimelineData() {
+    async loadAllData() {
       try {
-        const files = [
+        // Load configuration files
+        const [introResponse, turningsResponse, booksResponse] = await Promise.all([
+          fetch('config/introduction.json'),
+          fetch('config/turnings.json'),
+          fetch('config/books.json')
+        ]);
+        
+        const introData = await introResponse.json();
+        const turningsData = await turningsResponse.json();
+        const booksData = await booksResponse.json();
+        
+        this.introductionContent = introData;
+        this.turningTypes = turningsData.turningTypes;
+        this.books = booksData.books;
+
+        // Load timeline data
+        const timelineFiles = [
           'millennial-saeculum.json', 
           'great-power-saeculum.json', 
           'civil-war-saeculum.json',
           'new-world-saeculum.json'
         ];
-        const responses = await Promise.all(files.map(file => fetch(file)));
-        const data = await Promise.all(responses.map(response => response.json()));
+        
+        const timelineResponses = await Promise.all(
+          timelineFiles.map(file => fetch(file))
+        );
+        const timelineData = await Promise.all(
+          timelineResponses.map(response => response.json())
+        );
         
         // Update the saecula data
-        data.forEach(saeculum => {
+        timelineData.forEach(saeculum => {
           const existing = this.saecula.find(s => s.name === saeculum.name);
           if (existing) {
             existing.events = saeculum.events;
           }
         });
       } catch (error) {
-        console.error('Error loading timeline data:', error);
+        console.error('Error loading data:', error);
       }
     }
   },
   mounted() {
-    this.loadTimelineData();
+    this.loadAllData();
   }
 }).mount('#app');

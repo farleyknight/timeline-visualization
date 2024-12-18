@@ -2,22 +2,44 @@
 <html>
 <head>
   <title>Strauss-Howe Timeline</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="css/legend.css">
+  <link rel="stylesheet" href="css/books.css">
+  <link rel="stylesheet" href="css/saeculum.css">
+  <link rel="stylesheet" href="css/introduction.css">  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.global.min.js"></script>
 </head>
 <body>
   <div id="app">
-    <h1>Historical Events Timeline</h1>
-    
+    <h1>Strauss-Howe Theory : Historical Events Timeline</h1>
+    <br/>
     <div class="app-container">
       <aside class="sidebar">
         <nav class="sidebar-nav">
+          <!-- Introduction -->
+          <div class="sidebar-item"
+               :class="{ active: selectedView === 'introduction' }"
+               @click="selectedView = 'introduction'">
+            <div>Introduction</div>
+            <div class="period">Theory Overview</div>
+          </div>
+
           <!-- Legend View Option -->
           <div class="sidebar-item"
                :class="{ active: selectedView === 'legend' }"
                @click="selectedView = 'legend'">
             <div>About the Turnings</div>
             <div class="period">Understanding the Cycles</div>
+          </div>
+          
+          <!-- Books Section -->
+          <div class="sidebar-item"
+               :class="{ active: selectedView === 'books' }"
+               @click="selectedView = 'books'">
+            <div>Books</div>
+            <div class="period">Theory & Research</div>
           </div>
           
           <!-- Saeculum Options -->
@@ -32,16 +54,51 @@
       </aside>
 
       <main class="main-content">
+        <!-- Introduction View -->
+        <div v-if="selectedView === 'introduction'" class="introduction-container">
+          <template v-if="introductionContent">
+            <h2>{{ introductionContent.title }}</h2>
+            <div class="introduction-content" v-html="introductionContent.content"></div>
+          </template>
+          <div v-else class="loading">Loading...</div>
+        </div>
+
         <!-- Legend View -->
-        <div v-if="selectedView === 'legend'" class="legend-container">
-          <div v-for="turn in turningTypes" :key="turn.name" 
-               class="legend-item" :style="{ background: turn.lightColor }">
-            <div class="legend-header">
-              <div class="legend-color" :style="{ background: turn.color }"></div>
-              <span>{{ turn.name }}</span>
+        <div v-else-if="selectedView === 'legend'" class="legend-container">
+          <template v-if="turningTypes.length">
+            <div v-for="turn in turningTypes" :key="turn.name" 
+                 class="legend-item" :style="{ background: turn.lightColor }">
+              <div class="legend-header">
+                <div class="legend-color" :style="{ background: turn.color }"></div>
+                <span>{{ turn.name }}</span>
+              </div>
+              <div class="legend-description">{{ turn.description }}</div>
             </div>
-            <div class="legend-description">{{ turn.description }}</div>
-          </div>
+          </template>
+          <div v-else class="loading">Loading...</div>
+        </div>
+
+        <!-- Books View -->
+        <div v-else-if="selectedView === 'books'" class="books-container">
+          <template v-if="books.length">
+            <div v-for="book in books" :key="book.title" class="book-item">
+              <div class="book-content">
+                <img :src="book.image" :alt="book.title" class="book-cover">
+                <div class="book-info">
+                  <h3>
+                    <a :href="book.url" target="_blank" rel="noopener noreferrer">
+                      {{ book.title }}
+                    </a>
+                  </h3>
+                  <div class="book-details">
+                    <div class="book-authors">By {{ book.authors }}</div>
+                    <div class="book-year">Published: {{ book.year }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
+          <div v-else class="loading">Loading...</div>
         </div>
 
         <!-- Timeline View -->

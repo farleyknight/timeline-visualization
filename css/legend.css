@@ -1,0 +1,38 @@
+.legend-container {
+  display: grid;
+  gap: 20px;
+}
+
+.legend-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  background: white;
+}
+
+.legend-item:hover {
+  transform: translateY(-2px);
+}
+
+.legend-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.legend-description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
