@@ -1,10 +1,16 @@
 {
   "turningTypes": [
     {
-      "name": "Fourth Turning (Crisis)",
-      "color": "#FFE0E0",
-      "lightColor": "rgba(255, 224, 224, 0.1)",
-      "description": "A decisive era of upheaval when institutional life is destroyed and rebuilt in response to a perceived threat to the nation's survival."
+      "name": "First Turning (High)",
+      "color": "#FFF3E0",
+      "lightColor": "rgba(255, 243, 224, 0.1)",
+      "description": "An upbeat era of strengthening institutions and weakening individualism, when a new civic order implants and the old values regime decays."
+    },    
+    {
+      "name": "Second Turning (Awakening)",
+      "color": "#E8F5E9",
+      "lightColor": "rgba(232, 245, 233, 0.1)",
+      "description": "A passionate era of spiritual upheaval, when the civic order comes under attack from a new values regime."
     },
     {
       "name": "Third Turning (Unraveling)",
@@ -13,16 +19,10 @@
       "description": "A downcast era of strengthening individualism and weakening institutions, when the old civic order decays and the new values regime implants."
     },
     {
-      "name": "Second Turning (Awakening)",
-      "color": "#E8F5E9",
-      "lightColor": "rgba(232, 245, 233, 0.1)",
-      "description": "A passionate era of spiritual upheaval, when the civic order comes under attack from a new values regime."
-    },
-    {
-      "name": "First Turning (High)",
-      "color": "#FFF3E0",
-      "lightColor": "rgba(255, 243, 224, 0.1)",
-      "description": "An upbeat era of strengthening institutions and weakening individualism, when a new civic order implants and the old values regime decays."
+      "name": "Fourth Turning (Crisis)",
+      "color": "#FFE0E0",
+      "lightColor": "rgba(255, 224, 224, 0.1)",
+      "description": "A decisive era of upheaval when institutional life is destroyed and rebuilt in response to a perceived threat to the nation's survival."
     }
   ]
 }

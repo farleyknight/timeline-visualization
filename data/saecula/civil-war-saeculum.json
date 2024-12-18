@@ -3,10 +3,28 @@
   "period": "1794-1865",
   "events": [
     {
+      "description": "George Washington's Farewell Address",
+      "year": 1796,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/George_Washington%27s_Farewell_Address"
+    },
+    {
+      "description": "Louisiana Purchase",
+      "year": 1803,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Louisiana_Purchase"
+    },
+    {
       "description": "Era of Good Feelings",
       "year": 1815,
       "category": "First Turning (High)",
       "url": "https://en.wikipedia.org/wiki/Era_of_Good_Feelings"
+    },
+    {
+      "description": "Missouri Compromise",
+      "year": 1820,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Missouri_Compromise"
     },
     {
       "description": "Transcendental Awakening Begins",
@@ -21,6 +39,12 @@
       "url": "https://www.history.com/topics/black-history/abolitionist-movement"
     },
     {
+      "description": "Nat Turner's Rebellion",
+      "year": 1831,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Nat_Turner%27s_slave_rebellion"
+    },
+    {
       "description": "Mexican-American War",
       "year": 1846,
       "category": "Third Turning (Unraveling)",
@@ -33,10 +57,34 @@
       "url": "https://en.wikipedia.org/wiki/California_Gold_Rush"
     },
     {
+      "description": "Compromise of 1850",
+      "year": 1850,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Compromise_of_1850"
+    },
+    {
+      "description": "Bleeding Kansas",
+      "year": 1854,
+      "category": "Third Turning (Unraveling)",
+      "url": "https://en.wikipedia.org/wiki/Bleeding_Kansas"
+    },
+    {
       "description": "Civil War Begins",
       "year": 1861,
       "category": "Fourth Turning (Crisis)",
       "url": "https://en.wikipedia.org/wiki/American_Civil_War"
+    },
+    {
+      "description": "Emancipation Proclamation",
+      "year": 1863,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Emancipation_Proclamation"
+    },
+    {
+      "description": "Assassination of Abraham Lincoln",
+      "year": 1865,
+      "category": "Fourth Turning (Crisis)",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln"
     }
   ]
 }
