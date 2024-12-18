@@ -3,17 +3,101 @@
   "period": "1794-1865",
   "events": [
     {
+      "description": "Ratification of the United States Constitution",
+      "year": 1788,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/United_States_Constitution"
+    },
+    {
+      "description": "Bill of Rights ratified",
+      "year": 1791,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/United_States_Bill_of_Rights"
+    },
+    {
+      "description": "The Whiskey Rebellion Suppressed",
+      "year": 1794,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Whiskey_Rebellion"
+    },    
+    {
       "description": "George Washington's Farewell Address",
       "year": 1796,
       "category": "First Turning (High)",
       "url": "https://en.wikipedia.org/wiki/George_Washington%27s_Farewell_Address"
     },
     {
+      "description": "Jay's Treaty Signed",
+      "year": 1794,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Jay%27s_Treaty"
+    },
+    {
+      "description": "Founding of the Democratic-Republican Party",
+      "year": 1792,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Democratic-Republican_Party"
+    },
+    {
+      "description": "XYZ Affair sparks tensions with France",
+      "year": 1797,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/XYZ_Affair"
+    },    
+    {
+      "description": "Quasi-War between the United States and France",
+      "year": 1798,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Quasi-War"
+    },
+    {
+      "description": "Alien and Sedition Acts Passed",
+      "year": 1798,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Alien_and_Sedition_Acts"
+    },    
+    {
+      "description": "Election of 1800 ('Revolution of 1800')",
+      "year": 1800,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/1800_United_States_presidential_election"
+    },    
+    {
       "description": "Louisiana Purchase",
       "year": 1803,
       "category": "First Turning (High)",
       "url": "https://en.wikipedia.org/wiki/Louisiana_Purchase"
     },
+    {
+      "description": "Marbury v. Madison Establishes Judicial Review",
+      "year": 1803,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Marbury_v._Madison"
+    },    
+    {
+      "description": "Lewis and Clark Expedition begins",
+      "year": 1804,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition"
+    },    
+    {
+      "description": "Embargo Act of 1807",
+      "year": 1807,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Embargo_Act_of_1807"
+    },    
+    {
+      "description": "War of 1812 Begins",
+      "year": 1812,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/War_of_1812"
+    },    
+    {
+      "description": "Treaty of Ghent Ends War of 1812",
+      "year": 1814,
+      "category": "First Turning (High)",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Ghent"
+    },    
     {
       "description": "Era of Good Feelings",
       "year": 1815,
@@ -32,6 +116,12 @@
       "category": "Second Turning (Awakening)",
       "url": "https://en.wikipedia.org/wiki/Transcendentalism"
     },
+    {
+      "description": "Monroe Doctrine Declared",
+      "year": 1823,
+      "category": "Second Turning (Awakening)",
+      "url": "https://en.wikipedia.org/wiki/Monroe_Doctrine"
+    }, 
     {
       "description": "Abolitionist Movement Gains Traction",
       "year": 1830,
